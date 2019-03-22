@@ -1,6 +1,7 @@
 ---
 layout: post
 published: true
+author: Steve
 ---
 ## Things I'm Working on
 ### Professionally
