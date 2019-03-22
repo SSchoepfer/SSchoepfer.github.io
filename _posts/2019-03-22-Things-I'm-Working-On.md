@@ -1,12 +1,12 @@
 ---
 layout: post
+published: true
 ---
+## Things I'm Working on
+### Professionally
 
-## Professionally
-- MS in Database Systems from Touro College Grad School of Technology. Progress so far.  
-- Second item, dawg
-- Third item, what what?!
-- Fourth item, fo sheezy my neezy
+MS in Database Systems from Touro College Grad School of Technology. Progress so far.  
+
 
 {% comment %}
 Might you have an include in your theme? Why not try it here!
