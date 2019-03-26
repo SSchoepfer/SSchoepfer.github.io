@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Welcome!
-categories: Business
+categories: business
 subtitle: Stephen G Schoepfer is a Data Manager for the NYC DOE.
 date: 2019-03-26 21:11:27
 author: Steve
