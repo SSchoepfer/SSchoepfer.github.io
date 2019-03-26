@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Business 
-permalink: /business/
+title: Archive
+permalink: /archive/
 ---
 <!-- Slider Start -->
 <section id="global-header">
@@ -9,18 +9,25 @@ permalink: /business/
     <div class="row">
       <div class="col-md-12">
         <div class="block">
-          <h1>Business</h1>
+          <h1>Archive</h1>
           <p>  </p>
         </div>
       </div>
     </div>
   </div>
 </section>
-{% for category in site.categories %}
+{% for post in site.categories %}
+<div class="post-area">
   <h3>{{ category[0] }}</h3>
   <ul>
     {% for post in category[1] %}
       <li><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
+</div>
 {% endfor %}
+
+
+
+
+
