@@ -2,6 +2,7 @@
 layout: post
 published: true
 author: Steve
+categories: Spicy
 ---
 ### 2019
 
