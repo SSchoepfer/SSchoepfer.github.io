@@ -1,5 +1,8 @@
 ---
-published: false
+layout: post
+published: true
+author: Steve
+categories: Testing
 ---
 ## A Post With a Table 
 
