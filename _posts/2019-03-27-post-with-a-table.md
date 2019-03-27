@@ -4,7 +4,6 @@ published: true
 author: Steve
 categories: Testing
 ---
-## A Post With a Table 
 
 | Course | Description | 
 | --- | --- | 
