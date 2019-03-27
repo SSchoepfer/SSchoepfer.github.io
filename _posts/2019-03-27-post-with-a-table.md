@@ -5,8 +5,9 @@ author: Steve
 categories: Testing
 ---
 
-| Course | Description | 
-| --- | --- | 
-| git status | List all new or modified files | 
-| git diff | Show file differences that haven't been staged | 
+| Course | Description | Notes |  
+| ---    | ---         | ---   | 
+| git status | List all new or modified files | A |  
+| git diff | Show file differences that haven't been staged | A | 
+| | | | 
 
