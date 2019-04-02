@@ -2,7 +2,7 @@
 layout: post
 published: true
 author: Steve
-categories: Spicy
+categories: Learning
 ---
 ### 2019
 
