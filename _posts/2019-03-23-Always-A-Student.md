@@ -19,3 +19,4 @@ categories: Learning
 |624| Database Reporting Services|
 |626| Database Security|
 |627| Multidimensional Analytics and Cube Design|
+{: .tablelines}
