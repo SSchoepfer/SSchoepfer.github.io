@@ -15,7 +15,7 @@ categories: Learning
 </style>
 
 |Course|Title|
-| --- | --- |
+| --- |:---:|
 |607| Effective Oral & Written Communication|
 |609| Project Managment|
 |614| Data Migration and Transformation|
