@@ -20,7 +20,7 @@ MS in Database Systems, Touro College Grad School of Technology.
 |626| Database Security|
 |627| Multidimensional Analytics and Cube Design| 
 
-
+----------
 
 
 |-----------------+------------+-----------------+----------------|
@@ -35,3 +35,13 @@ MS in Database Systems, Touro College Grad School of Technology.
 |=================+============+=================+================|
 | Footer row      |            |                 |                |
 |-----------------+------------+-----------------+----------------|
+
+----------
+
+Apple
+:   Pomaceous fruit of plants of the genus Malus in 
+the family Rosaceae.
+
+Orange
+:   The fruit of an evergreen tree of the genus Citrus.
+
