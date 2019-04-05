@@ -8,6 +8,12 @@ categories: Learning
 
 ### MS in Database Systems, Touro College Grad School of Technology.
 
+<style>
+.tablelines table, .tablelines td, .tablelines th {
+        border: 1px solid black;
+        }
+</style>
+
 |Course|Title|
 | --- | --- |
 |607| Effective Oral & Written Communication|
