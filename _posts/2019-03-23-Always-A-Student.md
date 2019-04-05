@@ -9,8 +9,8 @@ categories: Learning
 MS in Database Systems, Touro College Grad School of Technology.
 
 |Course|Title|
-|--- |--- |
-|607|Effective Orlal & Written Communication|
+| --- | --- |
+|607|Effective Oral & Written Communication|
 |609|Project Managment|
 |614|Data Migration and Transformation|
 |615|Database Management and Administration|
