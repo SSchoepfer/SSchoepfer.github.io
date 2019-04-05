@@ -10,7 +10,7 @@ categories: Learning
 
 <style>
 .tablelines table, .tablelines td, .tablelines th {
-        border: 1px solid black;
+        border: 12px solid black;
         }
 </style>
 
