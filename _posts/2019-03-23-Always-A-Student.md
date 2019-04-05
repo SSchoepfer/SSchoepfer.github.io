@@ -6,7 +6,7 @@ categories: Learning
 ---
 ### 2019
 
-MS in Database Systems, Touro College Grad School of Technology.
+### MS in Database Systems, Touro College Grad School of Technology.
 
 |Course|Title|
 | --- | --- |
@@ -18,30 +18,4 @@ MS in Database Systems, Touro College Grad School of Technology.
 |620| Database Administration| 
 |624| Database Reporting Services|
 |626| Database Security|
-|627| Multidimensional Analytics and Cube Design| 
-
-----------
-
-
-|-----------------+------------+-----------------+----------------|
-| Default aligned |Left aligned| Center aligned  | Right aligned  |
-|-----------------|:-----------|:---------------:|---------------:|
-| First body part |Second cell | Third cell      | fourth cell    |
-| Second line     |foo         | **strong**      | baz            |
-| Third line      |quux        | baz             | bar            |
-|-----------------+------------+-----------------+----------------|
-| Second body     |            |                 |                |
-| 2 line          |            |                 |                |
-|=================+============+=================+================|
-| Footer row      |            |                 |                |
-|-----------------+------------+-----------------+----------------|
-
-----------
-
-Apple
-:   Pomaceous fruit of plants of the genus Malus in 
-the family Rosaceae.
-
-Orange
-:   The fruit of an evergreen tree of the genus Citrus.
-
+|627| Multidimensional Analytics and Cube Design|
