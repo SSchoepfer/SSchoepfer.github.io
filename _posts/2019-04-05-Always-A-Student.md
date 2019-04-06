@@ -2,9 +2,11 @@
 layout: post
 published: true
 author: Steve
-categories: Learning
+categories: Education
 ---
-### MS in Database Systems, Touro College Grad School of Technology.
+Notes on my pursuit of higher education. 
+
+#### MS in Database Systems, Touro College Grad School of Technology.
 
 <style>
 .tablelines table, .tablelines td, .tablelines th {
