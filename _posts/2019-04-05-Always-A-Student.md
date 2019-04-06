@@ -4,7 +4,7 @@ published: true
 author: Steve
 categories: Education
 ---
-Notes on my pursuit of higher education. 
+##### Notes on my pursuit of higher education. 
 
 #### MS in Database Systems, Touro College Grad School of Technology.
 
