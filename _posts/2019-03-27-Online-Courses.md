@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Learning
+title: Online Courses
 categories: Education
 author: Steve
 published: true
