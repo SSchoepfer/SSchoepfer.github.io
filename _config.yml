@@ -25,8 +25,8 @@ logo: "/assets/logo.png"
 # Build settings
 markdown: kramdown
 
-# Google analytics
-# ga_tracking_id: "UA-XXXX-1"
+Google analytics
+ga_tracking_id: "UA-68685883-1"
 
 # Category descriptions (for archive pages)
 descriptions:
