@@ -22,3 +22,9 @@ categories: Athletics
 * list 1 item 2
   * nested list item 1
 
+*   This is just text.
+    * this is a sub list item
+      * this is a sub sub list item
+* This is just text,
+    spanning two lines
+  * this is a nested list item.
