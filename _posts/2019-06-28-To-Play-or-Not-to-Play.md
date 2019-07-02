@@ -9,4 +9,4 @@ categories: Athletics
 
 - Sat May 29th BBall tourney @ House of Sports  
 - Sun May 30th PhilUSA Playoffs vs. 'Green' 
-- Monday June 1st [Yoga](https://www.instagram.com/tvyogi)
+- Monday June 1st [Yoga @ Urby](https://www.instagram.com/tvyogi)
