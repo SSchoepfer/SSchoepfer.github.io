@@ -7,6 +7,6 @@ categories: Athletics
 
 # Athletics
 
-- Sat May 29th BBall tourney @ House of Sports 
+- Sat May 29th BBall tourney @ House of Sports  
 - Sun May 30th PhilUSA Playoffs vs. 'Green' 
-
+- Monday June 1st Yoga 
