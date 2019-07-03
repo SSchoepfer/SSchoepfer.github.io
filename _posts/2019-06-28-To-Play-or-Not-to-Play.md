@@ -26,4 +26,3 @@ categories: Athletics
 </ul>
 </li>
 </ul>
-<p>&nbsp;</p>
