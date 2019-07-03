@@ -72,10 +72,10 @@ In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla e
 In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.
 
 1. First item, yo
-   * Nested List Item  
+   1. Nested List Item  
 2. Second item, dawg
-   * Nested List Item
-     * Nested List Item 
+   1. Nested List Item
+     1. Nested List Item 
 3. Third item, what what?!
 4. Fourth item, fo sheezy my neezy
 
