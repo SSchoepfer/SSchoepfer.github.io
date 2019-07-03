@@ -33,3 +33,20 @@ categories: Athletics
     ```
 
 +  Another item.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* Understanding movement planning during natural behavior<br>
+ * Understanding FEF activity during eye movements in natural scenes (In collaboration with the [Segraves Lab](http://sites.northwestern.edu/segraves-lab/))<br>
+ * Understanding PMd activity during reaching movements in na
