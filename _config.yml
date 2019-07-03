@@ -24,7 +24,6 @@ logo: "/assets/logo.png"
 
 # Build settings
 markdown: kramdown
-   input: GFM
 
 # Google analytics
 ga_tracking_id: UA-68685883-1
