@@ -12,4 +12,4 @@ published: true
 + SoundCloud
 + Blend
 
-Here comes a ![smiley](../img/RafailDeLaGetoMyspace.png)! 
+Here comes a ![smiley](../img/RafailDeLaGetoMyspace.png)
