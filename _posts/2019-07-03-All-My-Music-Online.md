@@ -12,4 +12,14 @@ published: true
 + SoundCloud
 + Blend
 
-![MySpace Took Down All of This Music](https://github.com/SSchoepfer/SSchoepfer.github.io/blob/master/img/RafailDeLaGetoMyspace.png)
+Here is an inline ![Picture](RafailDeLaGetoMyspace.png){:height="36px" width="36px"}
+
+And here is a referenced ![Picture]
+
+[Picture]: RafailDeLaGetoMyspace.png
+{: height="36px" width="36px"}
+
+
+![My helpful screenshot](/img/RafailDeLaGetoMyspace.png)
+
+
