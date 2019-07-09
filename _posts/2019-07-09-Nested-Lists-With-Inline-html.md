@@ -83,14 +83,12 @@ published: true
    
    
  # One MORE time: 
- ---
- 
 - one
-   * nested
+    - nested
 
 - two
-   * nested
+    - nested
 
 - three
-   * nested
+    - nested
 
