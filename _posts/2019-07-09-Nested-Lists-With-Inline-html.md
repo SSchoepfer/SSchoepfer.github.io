@@ -6,9 +6,12 @@ author: Steve
 published: true
 ---
 # Header
+
+
 * List Item 1 
     * Nested Level 1 
         * Nested Level 2
+
 
 ---
 
@@ -50,6 +53,9 @@ published: true
 ---
 
 # More html (not rendering correctly?) 
+---
+
+
 <ul>
 <li>First item</li>
 <li>Second item</li>
@@ -61,6 +67,7 @@ published: true
 </li>
 <li>Fourth item</li>
 </ul>
+
 
 ---
 
