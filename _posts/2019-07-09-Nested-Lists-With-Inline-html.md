@@ -111,7 +111,7 @@ published: true
 
 
 - For this
-   - do this
-   - then this
-   - then this
-   - do this too
+    - do this
+    - then this
+    - then this
+    - do this too
