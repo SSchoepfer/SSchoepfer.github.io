@@ -9,10 +9,16 @@ published: true
 * List Item 1 
     * Nested Level 1 
         * Nested Level 2
-        
-        
+
+---
 
 # html still not redering correctly on github pages (?) 
+
+<p>This is a para.</p>
+<div>
+  <p>Another para.</p>
+</div>
+
 <ul>
 <li>List Item 1
 <ul>
