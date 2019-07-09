@@ -11,6 +11,6 @@ categories: Athletics
 - • Tue July 2nd, BBall @ CSI
 - • Wed, July 3rd, Yoga
 - • Fri, July 5th, lots of walking in Boston
-- • Mon, July 8th, Yogi
+- • Mon, July 8th, Yoga
 - •
 - • 
