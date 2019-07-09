@@ -8,9 +8,9 @@ published: true
 # Header
 
 
-* List Item 1 
-    * Nested Level 1 
-        * Nested Level 2
+* List Item 1
+   * Nested Level 1 
+       * Nested Level 2
 
 
 ---
