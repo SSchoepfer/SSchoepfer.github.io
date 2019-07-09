@@ -1,4 +1,3 @@
-
 exclude:
   - "/vendor/"
   - "Gemfile"
@@ -12,7 +11,6 @@ keep_files:
   - ".git"
   - ".gitignore"
 
-
 # Site settings
 title: Stephen G Schoepfer
 subtitle: "Data Manager, NYC DOE"
@@ -24,13 +22,7 @@ logo: "/assets/logo.png"
 
 # Build settings
 markdown: kramdown
- # Use GitHub flavored markdown, including triple backtick fenced code blocks
-  input: GFM
-  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    # Use existing pygments syntax highlighting css
-css_class: 'highlight'
+input: GFM
 
 # Google analytics
 ga_tracking_id: UA-68685883-1
