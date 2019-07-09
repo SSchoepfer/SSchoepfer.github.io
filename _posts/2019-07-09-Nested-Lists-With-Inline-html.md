@@ -170,3 +170,22 @@ And A Header
 >
 > and all other block-level elements
 
+
+---
+
+kramdown
+: A Markdown-superset converter
+
+Maruku
+:     Another Markdown-superset converter
+
+---
+
+definition term
+: This definition will just be text because it would normally be a
+  paragraph and the there is no preceding blank line.
+
+  > although the definition contains other block-level elements
+
+: This definition *will* be a paragraph since it is preceded by a
+  blank line.
