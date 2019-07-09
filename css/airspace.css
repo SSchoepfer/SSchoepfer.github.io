@@ -37,10 +37,25 @@ p {
   font-size: 15px;
   line-height: 28px;
 }
+ul, ol {
+  margin: 15px 0;
+  padding-left: 30px;
+}
+
 ul {
-  padding: 0;
+  list-style-type: disc;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+ol ul, ul ol, ul ul, ol ol {
   margin: 0;
-  list-style: none;
+}
+
+ul ul, ol ul {
+  list-style-type: circle;
 }
 a,
 a:active,
