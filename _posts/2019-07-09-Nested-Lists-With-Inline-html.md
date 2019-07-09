@@ -51,7 +51,7 @@ published: true
 
 ---
 
-Now with Markdown syntax 
+# Now with Markdown syntax 
 
 ---
 
@@ -61,3 +61,11 @@ Now with Markdown syntax
     - Indented item
     - Indented item
 - Fourth item
+
+---
+# Another Try: 
+
+1. Number 1
+2. Number 2
+    * Number 4
+    * Number 5
