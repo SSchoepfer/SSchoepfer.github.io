@@ -133,3 +133,10 @@ published: true
 * This is just text,
     spanning two lines
   * this is a nested list item.
+  
+---
+
+* {:.cls} This item has the class "cls".
+  Here continues the above paragraph.
+
+* This is a normal list item.
