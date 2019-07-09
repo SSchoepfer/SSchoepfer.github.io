@@ -21,7 +21,7 @@ cover: "/assets/cover.png"
 logo: "/assets/logo.png"
 
 # Build settings
-markdown: kramdown
+kramdown:
 input: GFM
 
 # Google analytics
