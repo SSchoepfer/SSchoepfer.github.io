@@ -8,6 +8,7 @@ published: true
 ---
 
 + MySpace
+  + They took down all of these songs!
 ![MySpace took down all of these songs](/img/RafailDeLaGetoMyspace.png)
 + BandCamp
 + SoundCloud
