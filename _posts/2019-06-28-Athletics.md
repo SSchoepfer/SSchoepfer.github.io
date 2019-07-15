@@ -17,4 +17,5 @@ categories: Athletics
 - • Thu July 11th, BBall @ CSI
   - I missed way to many layups. Right shoulder hurts a bit when lifting and moving it around / to the left. I'm pretty sure this is from trying to dunk, which I dont have the technique down for.
 - • Sat July 13th, ~3m jog @ Silver Lake
-  - Walked from Navy Pier, thru Hero Park, stretched in Silver Lake for a while, tried to stay in shade and on hilly areas and just mindful of form. Stretched again after 3 miles then walked back.   
+  - Walked from Navy Pier, thru Hero Park, stretched in Silver Lake for a while, tried to stay in shade and on hilly areas and just mindful of form. Stretched again after 3 miles then walked back.
+- Mon July 15th, early morning ~2m bike ride from Navy Pier -> USPS in the ferry terminal and back, pre-work. 
