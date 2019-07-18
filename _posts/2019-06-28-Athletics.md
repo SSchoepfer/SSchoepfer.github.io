@@ -20,4 +20,5 @@ categories: Athletics
   - Walked from Navy Pier, thru Hero Park, stretched in Silver Lake for a while, tried to stay in shade and on hilly areas and just mindful of form. Stretched again after 3 miles then walked back.
 - Mon July 15th, ~2m bike ride from Navy Pier -> USPS in the ferry terminal and back, pre-work. & Yoga 
 - Tue July 16th, BBall @ CSI
-  - Good 2 hours of full court 5v5. Lots of running. I feel way better about finishing my layups this game. Rebounding was a battle. I went on to seal a game with a offensive board, put-back, and free throw for the win. 
+  - Good 2 hours of full court 5v5. Lots of running. I feel way better about finishing my layups this game. Rebounding was a battle. I went on to seal a game with a offensive board, put-back, and free throw for the win.
+- Wed July 17th, Yoga
