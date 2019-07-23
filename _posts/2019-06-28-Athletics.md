@@ -22,4 +22,7 @@ categories: Athletics
 - Tue July 16th, BBall @ CSI
   - Good 2 hours of full court 5v5. Lots of running. I feel way better about finishing my layups this game. Rebounding was a battle. I went on to seal a game with a offensive board, put-back, and free throw for the win.
 - Wed July 17th, Yoga
-- Sun July 21st, BBall @ PhilUSA.
+- Sun July 21st, BBall @ PhilUSA
+  - Conference 2 Game 2 vs Red. W
+- Mon July 22nd, Yoga w/ Mel
+
