@@ -25,4 +25,5 @@ categories: Athletics
 - Sun July 21st, BBall @ PhilUSA
   - Conference 2 Game 2 vs Red. W
 - Mon July 22nd, Yoga w/ Mel
+- Tue July 23rd, BBall @ CSI
 
