@@ -26,4 +26,5 @@ categories: Athletics
   - Conference 2 Game 2 vs Red. W
 - Mon July 22nd, Yoga w/ Mel
 - Tue July 23rd, BBall @ CSI
+- Sun July 28th, 5k run @ Urby w/ wellness triathlon group, BBall @ PhilUSA - Loss vs dark green  
 
