@@ -7,6 +7,8 @@ published: true
 ---
 # Header
 
+[Data Visualizations in Python and Jupyrter Notebook](https://nbviewer.jupyter.org/github/SSchoepfer/SSchoepfer.github.io/blob/master/Data%20Visualization%20with%20Python.ipynb)
+
 
 * List Item 1
    * Nested Level 1 
