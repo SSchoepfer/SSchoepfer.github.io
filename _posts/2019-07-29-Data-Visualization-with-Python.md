@@ -1,0 +1,2147 @@
+
+
+```python
+import pandas as pd
+```
+
+
+```python
+from matplotlib import pyplot as plt
+```
+
+
+```python
+x = [1, 2, 3]
+y = [1, 4, 9]
+z = [10, 5, 0]
+plt.plot(x, y)
+plt.plot(x, z)
+plt.title("Test Plot")
+plt.xlabel("x")
+plt.ylabel("y and z")
+plt.legend(["This is Y", "This is Z"])
+plt.show()
+```
+
+
+![png](Data%20Visualization%20with%20Python_files/Data%20Visualization%20with%20Python_2_0.png)
+
+
+
+```python
+sample_data = pd.read_csv('sample_data.csv')
+```
+
+
+```python
+sample_data
+```
+
+
+
+
+<div>
+<style>
+    .dataframe thead tr:only-child th {
+        text-align: right;
+    }
+
+    .dataframe thead th {
+        text-align: left;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>column_a</th>
+      <th>column_b</th>
+      <th>column_c</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1</td>
+      <td>1</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2</td>
+      <td>4</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>3</td>
+      <td>9</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>4</td>
+      <td>16</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>5</td>
+      <td>25</td>
+      <td>2</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+
+```python
+type(sample_data)
+```
+
+
+
+
+    pandas.core.frame.DataFrame
+
+
+
+
+```python
+sample_data.column_c
+```
+
+
+
+
+    0    10
+    1     8
+    2     6
+    3     4
+    4     2
+    Name: column_c, dtype: int64
+
+
+
+
+```python
+type(sample_data.column_c)
+```
+
+
+
+
+    pandas.core.series.Series
+
+
+
+
+```python
+sample_data.column_c.iloc[1]
+```
+
+
+
+
+    8
+
+
+
+
+```python
+plt.plot(sample_data.column_a, sample_data.column_b, 'o')
+plt.plot(sample_data.column_a, sample_data.column_c)
+plt.show()
+```
+
+
+![png](Data%20Visualization%20with%20Python_files/Data%20Visualization%20with%20Python_9_0.png)
+
+
+
+```python
+data = pd.read_csv('countries.csv')
+```
+
+
+```python
+data
+```
+
+
+
+
+<div>
+<style>
+    .dataframe thead tr:only-child th {
+        text-align: right;
+    }
+
+    .dataframe thead th {
+        text-align: left;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>country</th>
+      <th>year</th>
+      <th>population</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Afghanistan</td>
+      <td>1952</td>
+      <td>8425333</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Afghanistan</td>
+      <td>1957</td>
+      <td>9240934</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Afghanistan</td>
+      <td>1962</td>
+      <td>10267083</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Afghanistan</td>
+      <td>1967</td>
+      <td>11537966</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Afghanistan</td>
+      <td>1972</td>
+      <td>13079460</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Afghanistan</td>
+      <td>1977</td>
+      <td>14880372</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Afghanistan</td>
+      <td>1982</td>
+      <td>12881816</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>Afghanistan</td>
+      <td>1987</td>
+      <td>13867957</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>Afghanistan</td>
+      <td>1992</td>
+      <td>16317921</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>Afghanistan</td>
+      <td>1997</td>
+      <td>22227415</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>Afghanistan</td>
+      <td>2002</td>
+      <td>25268405</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>Afghanistan</td>
+      <td>2007</td>
+      <td>31889923</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>Albania</td>
+      <td>1952</td>
+      <td>1282697</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>Albania</td>
+      <td>1957</td>
+      <td>1476505</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>Albania</td>
+      <td>1962</td>
+      <td>1728137</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>Albania</td>
+      <td>1967</td>
+      <td>1984060</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>Albania</td>
+      <td>1972</td>
+      <td>2263554</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>Albania</td>
+      <td>1977</td>
+      <td>2509048</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>Albania</td>
+      <td>1982</td>
+      <td>2780097</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>Albania</td>
+      <td>1987</td>
+      <td>3075321</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>Albania</td>
+      <td>1992</td>
+      <td>3326498</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>Albania</td>
+      <td>1997</td>
+      <td>3428038</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>Albania</td>
+      <td>2002</td>
+      <td>3508512</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>Albania</td>
+      <td>2007</td>
+      <td>3600523</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>Algeria</td>
+      <td>1952</td>
+      <td>9279525</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>Algeria</td>
+      <td>1957</td>
+      <td>10270856</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>Algeria</td>
+      <td>1962</td>
+      <td>11000948</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>Algeria</td>
+      <td>1967</td>
+      <td>12760499</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>Algeria</td>
+      <td>1972</td>
+      <td>14760787</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>Algeria</td>
+      <td>1977</td>
+      <td>17152804</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>1674</th>
+      <td>Yemen, Rep.</td>
+      <td>1982</td>
+      <td>9657618</td>
+    </tr>
+    <tr>
+      <th>1675</th>
+      <td>Yemen, Rep.</td>
+      <td>1987</td>
+      <td>11219340</td>
+    </tr>
+    <tr>
+      <th>1676</th>
+      <td>Yemen, Rep.</td>
+      <td>1992</td>
+      <td>13367997</td>
+    </tr>
+    <tr>
+      <th>1677</th>
+      <td>Yemen, Rep.</td>
+      <td>1997</td>
+      <td>15826497</td>
+    </tr>
+    <tr>
+      <th>1678</th>
+      <td>Yemen, Rep.</td>
+      <td>2002</td>
+      <td>18701257</td>
+    </tr>
+    <tr>
+      <th>1679</th>
+      <td>Yemen, Rep.</td>
+      <td>2007</td>
+      <td>22211743</td>
+    </tr>
+    <tr>
+      <th>1680</th>
+      <td>Zambia</td>
+      <td>1952</td>
+      <td>2672000</td>
+    </tr>
+    <tr>
+      <th>1681</th>
+      <td>Zambia</td>
+      <td>1957</td>
+      <td>3016000</td>
+    </tr>
+    <tr>
+      <th>1682</th>
+      <td>Zambia</td>
+      <td>1962</td>
+      <td>3421000</td>
+    </tr>
+    <tr>
+      <th>1683</th>
+      <td>Zambia</td>
+      <td>1967</td>
+      <td>3900000</td>
+    </tr>
+    <tr>
+      <th>1684</th>
+      <td>Zambia</td>
+      <td>1972</td>
+      <td>4506497</td>
+    </tr>
+    <tr>
+      <th>1685</th>
+      <td>Zambia</td>
+      <td>1977</td>
+      <td>5216550</td>
+    </tr>
+    <tr>
+      <th>1686</th>
+      <td>Zambia</td>
+      <td>1982</td>
+      <td>6100407</td>
+    </tr>
+    <tr>
+      <th>1687</th>
+      <td>Zambia</td>
+      <td>1987</td>
+      <td>7272406</td>
+    </tr>
+    <tr>
+      <th>1688</th>
+      <td>Zambia</td>
+      <td>1992</td>
+      <td>8381163</td>
+    </tr>
+    <tr>
+      <th>1689</th>
+      <td>Zambia</td>
+      <td>1997</td>
+      <td>9417789</td>
+    </tr>
+    <tr>
+      <th>1690</th>
+      <td>Zambia</td>
+      <td>2002</td>
+      <td>10595811</td>
+    </tr>
+    <tr>
+      <th>1691</th>
+      <td>Zambia</td>
+      <td>2007</td>
+      <td>11746035</td>
+    </tr>
+    <tr>
+      <th>1692</th>
+      <td>Zimbabwe</td>
+      <td>1952</td>
+      <td>3080907</td>
+    </tr>
+    <tr>
+      <th>1693</th>
+      <td>Zimbabwe</td>
+      <td>1957</td>
+      <td>3646340</td>
+    </tr>
+    <tr>
+      <th>1694</th>
+      <td>Zimbabwe</td>
+      <td>1962</td>
+      <td>4277736</td>
+    </tr>
+    <tr>
+      <th>1695</th>
+      <td>Zimbabwe</td>
+      <td>1967</td>
+      <td>4995432</td>
+    </tr>
+    <tr>
+      <th>1696</th>
+      <td>Zimbabwe</td>
+      <td>1972</td>
+      <td>5861135</td>
+    </tr>
+    <tr>
+      <th>1697</th>
+      <td>Zimbabwe</td>
+      <td>1977</td>
+      <td>6642107</td>
+    </tr>
+    <tr>
+      <th>1698</th>
+      <td>Zimbabwe</td>
+      <td>1982</td>
+      <td>7636524</td>
+    </tr>
+    <tr>
+      <th>1699</th>
+      <td>Zimbabwe</td>
+      <td>1987</td>
+      <td>9216418</td>
+    </tr>
+    <tr>
+      <th>1700</th>
+      <td>Zimbabwe</td>
+      <td>1992</td>
+      <td>10704340</td>
+    </tr>
+    <tr>
+      <th>1701</th>
+      <td>Zimbabwe</td>
+      <td>1997</td>
+      <td>11404948</td>
+    </tr>
+    <tr>
+      <th>1702</th>
+      <td>Zimbabwe</td>
+      <td>2002</td>
+      <td>11926563</td>
+    </tr>
+    <tr>
+      <th>1703</th>
+      <td>Zimbabwe</td>
+      <td>2007</td>
+      <td>12311143</td>
+    </tr>
+  </tbody>
+</table>
+<p>1704 rows × 3 columns</p>
+</div>
+
+
+
+
+```python
+# Compare the population growth in the US and China
+```
+
+
+```python
+data[data.country == 'United States']
+```
+
+
+
+
+<div>
+<style>
+    .dataframe thead tr:only-child th {
+        text-align: right;
+    }
+
+    .dataframe thead th {
+        text-align: left;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>country</th>
+      <th>year</th>
+      <th>population</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1608</th>
+      <td>United States</td>
+      <td>1952</td>
+      <td>157553000</td>
+    </tr>
+    <tr>
+      <th>1609</th>
+      <td>United States</td>
+      <td>1957</td>
+      <td>171984000</td>
+    </tr>
+    <tr>
+      <th>1610</th>
+      <td>United States</td>
+      <td>1962</td>
+      <td>186538000</td>
+    </tr>
+    <tr>
+      <th>1611</th>
+      <td>United States</td>
+      <td>1967</td>
+      <td>198712000</td>
+    </tr>
+    <tr>
+      <th>1612</th>
+      <td>United States</td>
+      <td>1972</td>
+      <td>209896000</td>
+    </tr>
+    <tr>
+      <th>1613</th>
+      <td>United States</td>
+      <td>1977</td>
+      <td>220239000</td>
+    </tr>
+    <tr>
+      <th>1614</th>
+      <td>United States</td>
+      <td>1982</td>
+      <td>232187835</td>
+    </tr>
+    <tr>
+      <th>1615</th>
+      <td>United States</td>
+      <td>1987</td>
+      <td>242803533</td>
+    </tr>
+    <tr>
+      <th>1616</th>
+      <td>United States</td>
+      <td>1992</td>
+      <td>256894189</td>
+    </tr>
+    <tr>
+      <th>1617</th>
+      <td>United States</td>
+      <td>1997</td>
+      <td>272911760</td>
+    </tr>
+    <tr>
+      <th>1618</th>
+      <td>United States</td>
+      <td>2002</td>
+      <td>287675526</td>
+    </tr>
+    <tr>
+      <th>1619</th>
+      <td>United States</td>
+      <td>2007</td>
+      <td>301139947</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+
+```python
+us = data[data.country == 'United States']
+```
+
+
+```python
+china = data[data.country == 'China']
+```
+
+
+```python
+us
+```
+
+
+
+
+<div>
+<style>
+    .dataframe thead tr:only-child th {
+        text-align: right;
+    }
+
+    .dataframe thead th {
+        text-align: left;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>country</th>
+      <th>year</th>
+      <th>population</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1608</th>
+      <td>United States</td>
+      <td>1952</td>
+      <td>157553000</td>
+    </tr>
+    <tr>
+      <th>1609</th>
+      <td>United States</td>
+      <td>1957</td>
+      <td>171984000</td>
+    </tr>
+    <tr>
+      <th>1610</th>
+      <td>United States</td>
+      <td>1962</td>
+      <td>186538000</td>
+    </tr>
+    <tr>
+      <th>1611</th>
+      <td>United States</td>
+      <td>1967</td>
+      <td>198712000</td>
+    </tr>
+    <tr>
+      <th>1612</th>
+      <td>United States</td>
+      <td>1972</td>
+      <td>209896000</td>
+    </tr>
+    <tr>
+      <th>1613</th>
+      <td>United States</td>
+      <td>1977</td>
+      <td>220239000</td>
+    </tr>
+    <tr>
+      <th>1614</th>
+      <td>United States</td>
+      <td>1982</td>
+      <td>232187835</td>
+    </tr>
+    <tr>
+      <th>1615</th>
+      <td>United States</td>
+      <td>1987</td>
+      <td>242803533</td>
+    </tr>
+    <tr>
+      <th>1616</th>
+      <td>United States</td>
+      <td>1992</td>
+      <td>256894189</td>
+    </tr>
+    <tr>
+      <th>1617</th>
+      <td>United States</td>
+      <td>1997</td>
+      <td>272911760</td>
+    </tr>
+    <tr>
+      <th>1618</th>
+      <td>United States</td>
+      <td>2002</td>
+      <td>287675526</td>
+    </tr>
+    <tr>
+      <th>1619</th>
+      <td>United States</td>
+      <td>2007</td>
+      <td>301139947</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+
+```python
+china
+```
+
+
+
+
+<div>
+<style>
+    .dataframe thead tr:only-child th {
+        text-align: right;
+    }
+
+    .dataframe thead th {
+        text-align: left;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>country</th>
+      <th>year</th>
+      <th>population</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>288</th>
+      <td>China</td>
+      <td>1952</td>
+      <td>556263527</td>
+    </tr>
+    <tr>
+      <th>289</th>
+      <td>China</td>
+      <td>1957</td>
+      <td>637408000</td>
+    </tr>
+    <tr>
+      <th>290</th>
+      <td>China</td>
+      <td>1962</td>
+      <td>665770000</td>
+    </tr>
+    <tr>
+      <th>291</th>
+      <td>China</td>
+      <td>1967</td>
+      <td>754550000</td>
+    </tr>
+    <tr>
+      <th>292</th>
+      <td>China</td>
+      <td>1972</td>
+      <td>862030000</td>
+    </tr>
+    <tr>
+      <th>293</th>
+      <td>China</td>
+      <td>1977</td>
+      <td>943455000</td>
+    </tr>
+    <tr>
+      <th>294</th>
+      <td>China</td>
+      <td>1982</td>
+      <td>1000281000</td>
+    </tr>
+    <tr>
+      <th>295</th>
+      <td>China</td>
+      <td>1987</td>
+      <td>1084035000</td>
+    </tr>
+    <tr>
+      <th>296</th>
+      <td>China</td>
+      <td>1992</td>
+      <td>1164970000</td>
+    </tr>
+    <tr>
+      <th>297</th>
+      <td>China</td>
+      <td>1997</td>
+      <td>1230075000</td>
+    </tr>
+    <tr>
+      <th>298</th>
+      <td>China</td>
+      <td>2002</td>
+      <td>1280400000</td>
+    </tr>
+    <tr>
+      <th>299</th>
+      <td>China</td>
+      <td>2007</td>
+      <td>1318683096</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+
+```python
+plt.plot(us.year, us.population / 10**6)
+plt.plot(china.year, china.population / 10**6)
+plt.legend(['United States', 'China'])
+plt.xlabel('year')
+plt.ylabel('population')
+plt.show()
+
+```
+
+
+![png](Data%20Visualization%20with%20Python_files/Data%20Visualization%20with%20Python_18_0.png)
+
+
+
+```python
+us.population
+```
+
+
+
+
+    1608    157553000
+    1609    171984000
+    1610    186538000
+    1611    198712000
+    1612    209896000
+    1613    220239000
+    1614    232187835
+    1615    242803533
+    1616    256894189
+    1617    272911760
+    1618    287675526
+    1619    301139947
+    Name: population, dtype: int64
+
+
+
+
+```python
+us.population / us.population.iloc[0] * 100
+```
+
+
+
+
+    1608    100.000000
+    1609    109.159457
+    1610    118.396984
+    1611    126.123908
+    1612    133.222471
+    1613    139.787246
+    1614    147.371256
+    1615    154.109114
+    1616    163.052553
+    1617    173.219018
+    1618    182.589685
+    1619    191.135648
+    Name: population, dtype: float64
+
+
+
+
+```python
+plt.plot(us.year, us.population / us.population.iloc[0] * 100)
+plt.plot(china.year, china.population / china.population.iloc[0] * 100)
+plt.legend(['United States', 'China'])
+plt.xlabel('year')
+plt.ylabel('population growth(first year = 100)')
+plt.show()
+
+```
+
+
+![png](Data%20Visualization%20with%20Python_files/Data%20Visualization%20with%20Python_21_0.png)
+
+
+
+```python
+plt.xkcd()
+plt.plot(us.year, us.population / us.population.iloc[0] * 100)
+plt.plot(china.year, china.population / china.population.iloc[0] * 100)
+plt.legend(['United States', 'China'])
+plt.xlabel('year')
+plt.ylabel('population growth(first year = 100)')
+plt.show()
+```
+
+
+![png](Data%20Visualization%20with%20Python_files/Data%20Visualization%20with%20Python_22_0.png)
+
+
+
+```python
+df = pd.read_csv('pokemon_data.csv')
+
+df_xlsx = pd.read_excel('pokemon_data')
+
+# print(df.tail(3))
+
+```
+
+           #                 Name   Type 1 Type 2  HP  Attack  Defense  Sp. Atk  \
+    797  720  HoopaHoopa Confined  Psychic  Ghost  80     110       60      150   
+    798  720   HoopaHoopa Unbound  Psychic   Dark  80     160       60      170   
+    799  721            Volcanion     Fire  Water  80     110      120      130   
+    
+         Sp. Def  Speed  Generation  Legendary  
+    797      130     70           6       True  
+    798      130     80           6       True  
+    799       90     70           6       True  
+    
+
+
+```python
+# Read Headers 
+
+# print(df.columns)
+
+# Read each column 
+
+# print(df['Name'])
+
+# Read Each Row 
+
+# print(df.head(4))
+
+# print(df.iloc[5:14])
+
+# df.loc[df['Type 1'] == "Fire"]
+
+# df.loc[df['Type 1'] == "Grass"]
+
+df.describe() 
+
+```
+
+
+
+
+<div>
+<style>
+    .dataframe thead tr:only-child th {
+        text-align: right;
+    }
+
+    .dataframe thead th {
+        text-align: left;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>#</th>
+      <th>HP</th>
+      <th>Attack</th>
+      <th>Defense</th>
+      <th>Sp. Atk</th>
+      <th>Sp. Def</th>
+      <th>Speed</th>
+      <th>Generation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>count</th>
+      <td>800.000000</td>
+      <td>800.000000</td>
+      <td>800.000000</td>
+      <td>800.000000</td>
+      <td>800.000000</td>
+      <td>800.000000</td>
+      <td>800.000000</td>
+      <td>800.00000</td>
+    </tr>
+    <tr>
+      <th>mean</th>
+      <td>362.813750</td>
+      <td>69.258750</td>
+      <td>79.001250</td>
+      <td>73.842500</td>
+      <td>72.820000</td>
+      <td>71.902500</td>
+      <td>68.277500</td>
+      <td>3.32375</td>
+    </tr>
+    <tr>
+      <th>std</th>
+      <td>208.343798</td>
+      <td>25.534669</td>
+      <td>32.457366</td>
+      <td>31.183501</td>
+      <td>32.722294</td>
+      <td>27.828916</td>
+      <td>29.060474</td>
+      <td>1.66129</td>
+    </tr>
+    <tr>
+      <th>min</th>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>5.000000</td>
+      <td>5.000000</td>
+      <td>10.000000</td>
+      <td>20.000000</td>
+      <td>5.000000</td>
+      <td>1.00000</td>
+    </tr>
+    <tr>
+      <th>25%</th>
+      <td>184.750000</td>
+      <td>50.000000</td>
+      <td>55.000000</td>
+      <td>50.000000</td>
+      <td>49.750000</td>
+      <td>50.000000</td>
+      <td>45.000000</td>
+      <td>2.00000</td>
+    </tr>
+    <tr>
+      <th>50%</th>
+      <td>364.500000</td>
+      <td>65.000000</td>
+      <td>75.000000</td>
+      <td>70.000000</td>
+      <td>65.000000</td>
+      <td>70.000000</td>
+      <td>65.000000</td>
+      <td>3.00000</td>
+    </tr>
+    <tr>
+      <th>75%</th>
+      <td>539.250000</td>
+      <td>80.000000</td>
+      <td>100.000000</td>
+      <td>90.000000</td>
+      <td>95.000000</td>
+      <td>90.000000</td>
+      <td>90.000000</td>
+      <td>5.00000</td>
+    </tr>
+    <tr>
+      <th>max</th>
+      <td>721.000000</td>
+      <td>255.000000</td>
+      <td>190.000000</td>
+      <td>230.000000</td>
+      <td>194.000000</td>
+      <td>230.000000</td>
+      <td>180.000000</td>
+      <td>6.00000</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+
+```python
+df.sort_values('Name', ascending = False)
+```
+
+
+
+
+<div>
+<style>
+    .dataframe thead tr:only-child th {
+        text-align: right;
+    }
+
+    .dataframe thead th {
+        text-align: left;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>#</th>
+      <th>Name</th>
+      <th>Type 1</th>
+      <th>Type 2</th>
+      <th>HP</th>
+      <th>Attack</th>
+      <th>Defense</th>
+      <th>Sp. Atk</th>
+      <th>Sp. Def</th>
+      <th>Speed</th>
+      <th>Generation</th>
+      <th>Legendary</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>794</th>
+      <td>718</td>
+      <td>Zygarde50% Forme</td>
+      <td>Dragon</td>
+      <td>Ground</td>
+      <td>108</td>
+      <td>100</td>
+      <td>121</td>
+      <td>81</td>
+      <td>95</td>
+      <td>95</td>
+      <td>6</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>695</th>
+      <td>634</td>
+      <td>Zweilous</td>
+      <td>Dark</td>
+      <td>Dragon</td>
+      <td>72</td>
+      <td>85</td>
+      <td>70</td>
+      <td>65</td>
+      <td>70</td>
+      <td>58</td>
+      <td>5</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>41</td>
+      <td>Zubat</td>
+      <td>Poison</td>
+      <td>Flying</td>
+      <td>40</td>
+      <td>45</td>
+      <td>35</td>
+      <td>30</td>
+      <td>40</td>
+      <td>55</td>
+      <td>1</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>631</th>
+      <td>570</td>
+      <td>Zorua</td>
+      <td>Dark</td>
+      <td>NaN</td>
+      <td>40</td>
+      <td>65</td>
+      <td>40</td>
+      <td>80</td>
+      <td>40</td>
+      <td>65</td>
+      <td>5</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>632</th>
+      <td>571</td>
+      <td>Zoroark</td>
+      <td>Dark</td>
+      <td>NaN</td>
+      <td>60</td>
+      <td>105</td>
+      <td>60</td>
+      <td>120</td>
+      <td>60</td>
+      <td>105</td>
+      <td>5</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>286</th>
+      <td>263</td>
+      <td>Zigzagoon</td>
+      <td>Normal</td>
+      <td>NaN</td>
+      <td>38</td>
+      <td>30</td>
+      <td>41</td>
+      <td>30</td>
+      <td>41</td>
+      <td>60</td>
+      <td>3</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>707</th>
+      <td>644</td>
+      <td>Zekrom</td>
+      <td>Dragon</td>
+      <td>Electric</td>
+      <td>100</td>
+      <td>150</td>
+      <td>120</td>
+      <td>120</td>
+      <td>100</td>
+      <td>90</td>
+      <td>5</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>582</th>
+      <td>523</td>
+      <td>Zebstrika</td>
+      <td>Electric</td>
+      <td>NaN</td>
+      <td>75</td>
+      <td>100</td>
+      <td>63</td>
+      <td>80</td>
+      <td>63</td>
+      <td>116</td>
+      <td>5</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>157</th>
+      <td>145</td>
+      <td>Zapdos</td>
+      <td>Electric</td>
+      <td>Flying</td>
+      <td>90</td>
+      <td>90</td>
+      <td>85</td>
+      <td>125</td>
+      <td>90</td>
+      <td>100</td>
+      <td>1</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>367</th>
+      <td>335</td>
+      <td>Zangoose</td>
+      <td>Normal</td>
+      <td>NaN</td>
+      <td>73</td>
+      <td>115</td>
+      <td>60</td>
+      <td>60</td>
+      <td>60</td>
+      <td>90</td>
+      <td>3</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>793</th>
+      <td>717</td>
+      <td>Yveltal</td>
+      <td>Dark</td>
+      <td>Flying</td>
+      <td>126</td>
+      <td>131</td>
+      <td>95</td>
+      <td>131</td>
+      <td>98</td>
+      <td>99</td>
+      <td>6</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>520</th>
+      <td>469</td>
+      <td>Yanmega</td>
+      <td>Bug</td>
+      <td>Flying</td>
+      <td>86</td>
+      <td>76</td>
+      <td>86</td>
+      <td>116</td>
+      <td>56</td>
+      <td>95</td>
+      <td>4</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>208</th>
+      <td>193</td>
+      <td>Yanma</td>
+      <td>Bug</td>
+      <td>Flying</td>
+      <td>65</td>
+      <td>65</td>
+      <td>45</td>
+      <td>75</td>
+      <td>45</td>
+      <td>95</td>
+      <td>2</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>623</th>
+      <td>562</td>
+      <td>Yamask</td>
+      <td>Ghost</td>
+      <td>NaN</td>
+      <td>38</td>
+      <td>30</td>
+      <td>85</td>
+      <td>55</td>
+      <td>65</td>
+      <td>30</td>
+      <td>5</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>792</th>
+      <td>716</td>
+      <td>Xerneas</td>
+      <td>Fairy</td>
+      <td>NaN</td>
+      <td>126</td>
+      <td>131</td>
+      <td>95</td>
+      <td>131</td>
+      <td>98</td>
+      <td>99</td>
+      <td>6</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>192</th>
+      <td>178</td>
+      <td>Xatu</td>
+      <td>Psychic</td>
+      <td>Flying</td>
+      <td>65</td>
+      <td>75</td>
+      <td>70</td>
+      <td>95</td>
+      <td>70</td>
+      <td>95</td>
+      <td>2</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>394</th>
+      <td>360</td>
+      <td>Wynaut</td>
+      <td>Psychic</td>
+      <td>NaN</td>
+      <td>95</td>
+      <td>23</td>
+      <td>48</td>
+      <td>23</td>
+      <td>48</td>
+      <td>23</td>
+      <td>3</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>288</th>
+      <td>265</td>
+      <td>Wurmple</td>
+      <td>Bug</td>
+      <td>NaN</td>
+      <td>45</td>
+      <td>45</td>
+      <td>35</td>
+      <td>20</td>
+      <td>30</td>
+      <td>20</td>
+      <td>3</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>460</th>
+      <td>413</td>
+      <td>WormadamTrash Cloak</td>
+      <td>Bug</td>
+      <td>Steel</td>
+      <td>60</td>
+      <td>69</td>
+      <td>95</td>
+      <td>69</td>
+      <td>95</td>
+      <td>36</td>
+      <td>4</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>459</th>
+      <td>413</td>
+      <td>WormadamSandy Cloak</td>
+      <td>Bug</td>
+      <td>Ground</td>
+      <td>60</td>
+      <td>79</td>
+      <td>105</td>
+      <td>59</td>
+      <td>85</td>
+      <td>36</td>
+      <td>4</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>458</th>
+      <td>413</td>
+      <td>WormadamPlant Cloak</td>
+      <td>Bug</td>
+      <td>Grass</td>
+      <td>60</td>
+      <td>59</td>
+      <td>85</td>
+      <td>79</td>
+      <td>105</td>
+      <td>36</td>
+      <td>4</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>209</th>
+      <td>194</td>
+      <td>Wooper</td>
+      <td>Water</td>
+      <td>Ground</td>
+      <td>55</td>
+      <td>45</td>
+      <td>45</td>
+      <td>25</td>
+      <td>25</td>
+      <td>15</td>
+      <td>2</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>586</th>
+      <td>527</td>
+      <td>Woobat</td>
+      <td>Psychic</td>
+      <td>Flying</td>
+      <td>55</td>
+      <td>45</td>
+      <td>43</td>
+      <td>55</td>
+      <td>43</td>
+      <td>72</td>
+      <td>5</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>217</th>
+      <td>202</td>
+      <td>Wobbuffet</td>
+      <td>Psychic</td>
+      <td>NaN</td>
+      <td>190</td>
+      <td>33</td>
+      <td>58</td>
+      <td>33</td>
+      <td>58</td>
+      <td>33</td>
+      <td>2</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>301</th>
+      <td>278</td>
+      <td>Wingull</td>
+      <td>Water</td>
+      <td>Flying</td>
+      <td>40</td>
+      <td>30</td>
+      <td>30</td>
+      <td>55</td>
+      <td>30</td>
+      <td>85</td>
+      <td>3</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>40</td>
+      <td>Wigglytuff</td>
+      <td>Normal</td>
+      <td>Fairy</td>
+      <td>140</td>
+      <td>70</td>
+      <td>45</td>
+      <td>85</td>
+      <td>50</td>
+      <td>45</td>
+      <td>1</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>317</th>
+      <td>293</td>
+      <td>Whismur</td>
+      <td>Normal</td>
+      <td>NaN</td>
+      <td>64</td>
+      <td>51</td>
+      <td>23</td>
+      <td>51</td>
+      <td>23</td>
+      <td>28</td>
+      <td>3</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>372</th>
+      <td>340</td>
+      <td>Whiscash</td>
+      <td>Water</td>
+      <td>Ground</td>
+      <td>110</td>
+      <td>78</td>
+      <td>73</td>
+      <td>76</td>
+      <td>71</td>
+      <td>60</td>
+      <td>3</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>604</th>
+      <td>544</td>
+      <td>Whirlipede</td>
+      <td>Bug</td>
+      <td>Poison</td>
+      <td>40</td>
+      <td>55</td>
+      <td>99</td>
+      <td>40</td>
+      <td>79</td>
+      <td>47</td>
+      <td>5</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>607</th>
+      <td>547</td>
+      <td>Whimsicott</td>
+      <td>Grass</td>
+      <td>Fairy</td>
+      <td>60</td>
+      <td>67</td>
+      <td>85</td>
+      <td>77</td>
+      <td>75</td>
+      <td>116</td>
+      <td>5</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>182</th>
+      <td>168</td>
+      <td>Ariados</td>
+      <td>Bug</td>
+      <td>Poison</td>
+      <td>70</td>
+      <td>90</td>
+      <td>70</td>
+      <td>60</td>
+      <td>60</td>
+      <td>40</td>
+      <td>2</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>628</th>
+      <td>567</td>
+      <td>Archeops</td>
+      <td>Rock</td>
+      <td>Flying</td>
+      <td>75</td>
+      <td>140</td>
+      <td>65</td>
+      <td>112</td>
+      <td>65</td>
+      <td>110</td>
+      <td>5</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>627</th>
+      <td>566</td>
+      <td>Archen</td>
+      <td>Rock</td>
+      <td>Flying</td>
+      <td>55</td>
+      <td>112</td>
+      <td>45</td>
+      <td>74</td>
+      <td>45</td>
+      <td>70</td>
+      <td>5</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>552</th>
+      <td>493</td>
+      <td>Arceus</td>
+      <td>Normal</td>
+      <td>NaN</td>
+      <td>120</td>
+      <td>120</td>
+      <td>120</td>
+      <td>120</td>
+      <td>120</td>
+      <td>120</td>
+      <td>4</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>64</th>
+      <td>59</td>
+      <td>Arcanine</td>
+      <td>Fire</td>
+      <td>NaN</td>
+      <td>90</td>
+      <td>110</td>
+      <td>80</td>
+      <td>100</td>
+      <td>80</td>
+      <td>95</td>
+      <td>1</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>24</td>
+      <td>Arbok</td>
+      <td>Poison</td>
+      <td>NaN</td>
+      <td>60</td>
+      <td>85</td>
+      <td>69</td>
+      <td>65</td>
+      <td>79</td>
+      <td>80</td>
+      <td>1</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>379</th>
+      <td>347</td>
+      <td>Anorith</td>
+      <td>Rock</td>
+      <td>Bug</td>
+      <td>45</td>
+      <td>95</td>
+      <td>50</td>
+      <td>40</td>
+      <td>50</td>
+      <td>75</td>
+      <td>3</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>196</th>
+      <td>181</td>
+      <td>AmpharosMega Ampharos</td>
+      <td>Electric</td>
+      <td>Dragon</td>
+      <td>90</td>
+      <td>95</td>
+      <td>105</td>
+      <td>165</td>
+      <td>110</td>
+      <td>45</td>
+      <td>2</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>195</th>
+      <td>181</td>
+      <td>Ampharos</td>
+      <td>Electric</td>
+      <td>NaN</td>
+      <td>90</td>
+      <td>75</td>
+      <td>85</td>
+      <td>115</td>
+      <td>90</td>
+      <td>55</td>
+      <td>2</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>652</th>
+      <td>591</td>
+      <td>Amoonguss</td>
+      <td>Grass</td>
+      <td>Poison</td>
+      <td>114</td>
+      <td>85</td>
+      <td>70</td>
+      <td>85</td>
+      <td>80</td>
+      <td>30</td>
+      <td>5</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>471</th>
+      <td>424</td>
+      <td>Ambipom</td>
+      <td>Normal</td>
+      <td>NaN</td>
+      <td>75</td>
+      <td>100</td>
+      <td>66</td>
+      <td>60</td>
+      <td>66</td>
+      <td>115</td>
+      <td>4</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>768</th>
+      <td>698</td>
+      <td>Amaura</td>
+      <td>Rock</td>
+      <td>Ice</td>
+      <td>77</td>
+      <td>59</td>
+      <td>50</td>
+      <td>67</td>
+      <td>63</td>
+      <td>46</td>
+      <td>6</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>366</th>
+      <td>334</td>
+      <td>AltariaMega Altaria</td>
+      <td>Dragon</td>
+      <td>Fairy</td>
+      <td>75</td>
+      <td>110</td>
+      <td>110</td>
+      <td>110</td>
+      <td>105</td>
+      <td>80</td>
+      <td>3</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>365</th>
+      <td>334</td>
+      <td>Altaria</td>
+      <td>Dragon</td>
+      <td>Flying</td>
+      <td>75</td>
+      <td>70</td>
+      <td>90</td>
+      <td>70</td>
+      <td>105</td>
+      <td>80</td>
+      <td>3</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>655</th>
+      <td>594</td>
+      <td>Alomomola</td>
+      <td>Water</td>
+      <td>NaN</td>
+      <td>165</td>
+      <td>75</td>
+      <td>80</td>
+      <td>40</td>
+      <td>45</td>
+      <td>65</td>
+      <td>5</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>71</th>
+      <td>65</td>
+      <td>AlakazamMega Alakazam</td>
+      <td>Psychic</td>
+      <td>NaN</td>
+      <td>55</td>
+      <td>50</td>
+      <td>65</td>
+      <td>175</td>
+      <td>95</td>
+      <td>150</td>
+      <td>1</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>70</th>
+      <td>65</td>
+      <td>Alakazam</td>
+      <td>Psychic</td>
+      <td>NaN</td>
+      <td>55</td>
+      <td>50</td>
+      <td>45</td>
+      <td>135</td>
+      <td>95</td>
+      <td>120</td>
+      <td>1</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>205</th>
+      <td>190</td>
+      <td>Aipom</td>
+      <td>Normal</td>
+      <td>NaN</td>
+      <td>55</td>
+      <td>70</td>
+      <td>55</td>
+      <td>40</td>
+      <td>55</td>
+      <td>85</td>
+      <td>2</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>333</th>
+      <td>306</td>
+      <td>AggronMega Aggron</td>
+      <td>Steel</td>
+      <td>NaN</td>
+      <td>70</td>
+      <td>140</td>
+      <td>230</td>
+      <td>60</td>
+      <td>80</td>
+      <td>50</td>
+      <td>3</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>332</th>
+      <td>306</td>
+      <td>Aggron</td>
+      <td>Steel</td>
+      <td>Rock</td>
+      <td>70</td>
+      <td>110</td>
+      <td>180</td>
+      <td>60</td>
+      <td>60</td>
+      <td>50</td>
+      <td>3</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>154</th>
+      <td>142</td>
+      <td>AerodactylMega Aerodactyl</td>
+      <td>Rock</td>
+      <td>Flying</td>
+      <td>80</td>
+      <td>135</td>
+      <td>85</td>
+      <td>70</td>
+      <td>95</td>
+      <td>150</td>
+      <td>1</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>153</th>
+      <td>142</td>
+      <td>Aerodactyl</td>
+      <td>Rock</td>
+      <td>Flying</td>
+      <td>80</td>
+      <td>105</td>
+      <td>65</td>
+      <td>60</td>
+      <td>75</td>
+      <td>130</td>
+      <td>1</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>751</th>
+      <td>681</td>
+      <td>AegislashShield Forme</td>
+      <td>Steel</td>
+      <td>Ghost</td>
+      <td>60</td>
+      <td>50</td>
+      <td>150</td>
+      <td>50</td>
+      <td>150</td>
+      <td>60</td>
+      <td>6</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>750</th>
+      <td>681</td>
+      <td>AegislashBlade Forme</td>
+      <td>Steel</td>
+      <td>Ghost</td>
+      <td>60</td>
+      <td>150</td>
+      <td>50</td>
+      <td>150</td>
+      <td>50</td>
+      <td>60</td>
+      <td>6</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>678</th>
+      <td>617</td>
+      <td>Accelgor</td>
+      <td>Bug</td>
+      <td>NaN</td>
+      <td>80</td>
+      <td>70</td>
+      <td>40</td>
+      <td>100</td>
+      <td>60</td>
+      <td>145</td>
+      <td>5</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>393</th>
+      <td>359</td>
+      <td>AbsolMega Absol</td>
+      <td>Dark</td>
+      <td>NaN</td>
+      <td>65</td>
+      <td>150</td>
+      <td>60</td>
+      <td>115</td>
+      <td>60</td>
+      <td>115</td>
+      <td>3</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>392</th>
+      <td>359</td>
+      <td>Absol</td>
+      <td>Dark</td>
+      <td>NaN</td>
+      <td>65</td>
+      <td>130</td>
+      <td>60</td>
+      <td>75</td>
+      <td>60</td>
+      <td>75</td>
+      <td>3</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>68</th>
+      <td>63</td>
+      <td>Abra</td>
+      <td>Psychic</td>
+      <td>NaN</td>
+      <td>25</td>
+      <td>20</td>
+      <td>15</td>
+      <td>105</td>
+      <td>55</td>
+      <td>90</td>
+      <td>1</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>511</th>
+      <td>460</td>
+      <td>AbomasnowMega Abomasnow</td>
+      <td>Grass</td>
+      <td>Ice</td>
+      <td>90</td>
+      <td>132</td>
+      <td>105</td>
+      <td>132</td>
+      <td>105</td>
+      <td>30</td>
+      <td>4</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>510</th>
+      <td>460</td>
+      <td>Abomasnow</td>
+      <td>Grass</td>
+      <td>Ice</td>
+      <td>90</td>
+      <td>92</td>
+      <td>75</td>
+      <td>92</td>
+      <td>85</td>
+      <td>60</td>
+      <td>4</td>
+      <td>False</td>
+    </tr>
+  </tbody>
+</table>
+<p>800 rows × 12 columns</p>
+</div>
+
+
