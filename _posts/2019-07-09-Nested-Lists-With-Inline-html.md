@@ -7,18 +7,12 @@ published: true
 ---
 # Header
 
-[Data Visualizations in Python and Jupyrter Notebook](https://nbviewer.jupyter.org/github/SSchoepfer/SSchoepfer.github.io/blob/master/Data%20Visualization%20with%20Python.ipynb)
-
-
+[Data Visualizations in Python and Jupyter Notebook](https://nbviewer.jupyter.org/github/SSchoepfer/SSchoepfer.github.io/blob/master/Data%20Visualization%20with%20Python.ipynb)
 * List Item 1
    * Nested Level 1 
        * Nested Level 2
-
-
 ---
-
-# html still not redering correctly on github pages (?) 
-
+#  
 <p>This is a para.</p>
 <div>
   <p>Another para.</p>
@@ -54,10 +48,8 @@ published: true
 
 ---
 
-# More html (not rendering correctly?) 
+# More html
 ---
-
-
 <ul>
 <li>First item</li>
 <li>Second item</li>
@@ -69,12 +61,8 @@ published: true
 </li>
 <li>Fourth item</li>
 </ul>
-
-
 ---
-
 # Now with Markdown syntax 
-
 ---
 
 - First item
@@ -265,23 +253,3 @@ Finally, horizontal lines
  
 ----
 ****
-
-
-
-
-### Tables
-
-Title 1               | Title 2               | Title 3               | Title 4
---------------------- | --------------------- | --------------------- | ---------------------
-lorem                 | lorem ipsum           | lorem ipsum dolor     | lorem ipsum dolor sit
-lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit
-lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit
-lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit
-
-
-Title 1 | Title 2 | Title 3 | Title 4
---- | --- | --- | ---
-lorem | lorem ipsum | lorem ipsum dolor | lorem ipsum dolor sit
-lorem ipsum dolor sit amet | lorem ipsum dolor sit amet consectetur | lorem ipsum dolor sit amet | lorem ipsum dolor sit
-lorem ipsum dolor | lorem ipsum | lorem | lorem ipsum
-lorem ipsum dolor | lorem ipsum dolor sit | lorem ipsum dolor sit amet | lorem ipsum dolor sit amet consectetur
