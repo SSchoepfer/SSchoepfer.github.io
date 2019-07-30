@@ -24,7 +24,8 @@ categories: Athletics
 - Wed July 17th, Yoga
 - Sun July 21st, BBall @ PhilUSA
   - Conference 2 Game 2 vs Red. W
-- Mon July 22nd, Yoga w/ Mel
+- Mon July 22nd, Yoga
 - Tue July 23rd, BBall @ CSI
-- Sun July 28th, 5k run @ Urby w/ wellness triathlon group, BBall @ PhilUSA - Loss vs dark green  
+- Sun July 28th, 5k run @ Urby w/ wellness tri group, BBall @ PhilUSA - L vs dark green
+- Mon July 29th, [Yoga](https://www.google.com/search?q=forearm+headstand&oq=forearm+headstand&aqs=chrome..69i57j0l5.2536j0j7&sourceid=chrome&ie=UTF-8)
 
