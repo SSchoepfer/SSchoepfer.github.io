@@ -27,6 +27,13 @@ feed_items: 10
 feed_update_period: daily
 feed_update_frequency: 1
 
+social:
+  name: Steve Schoepfer
+  links:
+    - https://twitter.com/SteveSchoepfer
+    - https://github.com/SSchoepfer
+
+
 # Build settings
 kramdown:
 input: GFM
