@@ -44,5 +44,3 @@ descriptions:
 
 gems: 
       - jekyll-sitemap
-      
-gem 'jekyll-admin', group: :jekyll_plugins
