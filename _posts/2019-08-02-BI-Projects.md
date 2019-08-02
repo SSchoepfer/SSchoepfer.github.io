@@ -1,9 +1,8 @@
 ---
 layout: post
 title: BI Projects
-categories: education
-author:
-  twitter: steveschoepfer
+categories: Education
+author: Steve
 published: true
 ---
 
