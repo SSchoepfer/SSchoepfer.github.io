@@ -34,3 +34,5 @@ descriptions:
 
   - cat: Personal
     desc: "Personal"
+
+gems: - jekyll-sitemap
