@@ -20,8 +20,8 @@ baseurl: "/"
 cover: "/assets/cover.png"
 logo: "/assets/logo.png"
 
-name: Your Blog's Name
-description: A description for your blog
+name: SSchoepfer
+description: Information Design
 url: https://sschoepfer.github.io
 feed_items: 10
 feed_update_period: daily
