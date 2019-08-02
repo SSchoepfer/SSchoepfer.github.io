@@ -27,6 +27,10 @@ feed_items: 10
 feed_update_period: daily
 feed_update_frequency: 1
 
+twitter:
+  username: SteveSchoepfer
+  card: summary
+
 social:
   name: Steve Schoepfer
   links:
