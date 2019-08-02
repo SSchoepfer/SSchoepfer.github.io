@@ -1,7 +1,7 @@
 ---
 layout: post
 title: BI Projects
-categories: Education
+categories: 
 author: Steve
 permalink: /bi/
 published: true
