@@ -44,3 +44,4 @@ descriptions:
 
 gems: 
       - jekyll-sitemap
+      - jekyll-seo-tag
