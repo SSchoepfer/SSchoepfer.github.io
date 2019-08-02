@@ -28,4 +28,7 @@ categories: Athletics
 - Tue July 23rd, BBall @ CSI
 - Sun July 28th, 5k run @ Urby w/ wellness tri group, BBall @ PhilUSA - L vs dark green
 - Mon July 29th, [Yoga](https://www.google.com/search?q=forearm+headstand&oq=forearm+headstand&aqs=chrome..69i57j0l5.2536j0j7&sourceid=chrome&ie=UTF-8)
+- Tue July 30th, Hanging leg raises and neutral-grip pullups 
+- Wed July 31st, Yoga
+- Thu August 1st, BBall @ CSI
 
