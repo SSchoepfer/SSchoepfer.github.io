@@ -1,4 +1,10 @@
-
+---
+layout: post
+title: Python for Data Science
+categories: Python
+author: Steve
+published: true
+---
 
 ```python
 # Basic Strings in Python 
@@ -216,7 +222,7 @@ plt.show()
 ```
 
 
-![png](Python%20for%20Data%20Science_files/Python%20for%20Data%20Science_17_0.png)
+![png](/img/Python%20for%20Data%20Science_files/Python%20for%20Data%20Science_17_0.png)
 
 
 
@@ -572,7 +578,7 @@ plt.show() # since the plot is ready, it will be shown below the cell
 ```
 
 
-![png](Python%20for%20Data%20Science_files/Python%20for%20Data%20Science_22_0.png)
+![png](/img/Python%20for%20Data%20Science_files/Python%20for%20Data%20Science_22_0.png)
 
 
 
