@@ -31,5 +31,7 @@ categories: Athletics
 - Tue July 30th, Hanging leg raises and neutral-grip pullups 
 - Wed July 31st, Yoga
 - Thu August 1st, BBall @ CSI
-- Tue August 6th, BBall @ NYSC (Shootaround w/ SP, 1v1 W v. Baron Davis, Steam)  
+- Tue August 6th, BBall @ NYSC (Shootaround w/ SP, 1v1 W v. Baron Davis, Steam)
+- Wed August 7th, Yoga🙏
+- Thu August 8th, 
 
