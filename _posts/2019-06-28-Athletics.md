@@ -33,5 +33,5 @@ categories: Athletics
 - Thu August 1st, BBall @ CSI
 - Tue August 6th, BBall @ NYSC (Shootaround w/ SP, 1v1 W v. Baron Davis, Steam)
 - Wed August 7th, Yoga🙏
-- Thu August 8th, 
+- Thu August 8th, BBall @ CSI
 
