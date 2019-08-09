@@ -108,3 +108,58 @@ permalink: /posts/
 <!-- NOTE - remove all comments as dozens of them will show up in the generated HTML -->
 </div>
 
+
+
+{% assign many_tags = '' | split: ',' %}
+{% assign unique_tags = '' | split: ',' %}
+{% for c in site.collections %}
+  {% assign collectionTags =  c.docs | map: 'subject-tags' | join: ',' | split: ',' %}
+  {% for tag in collectionTags %}
+    {% assign many_tags = many_tags | push: tag %}
+  {% endfor %}
+{% endfor %}
+{% assign unique_tags = many_tags | uniq | sort  %}
+{% for index-tag in unique_tags %}
+  {% assign tags_posts = '' | split: ',' %}
+  {% for c in site.collections %}
+    {% for item in c.docs %}
+      {% for subtag in item.subject-tags %}    
+            {% if subtag == index-tag %}
+          {% assign tags_posts = tags_posts | push: item %}
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+  {% endfor %}
+{% assign tag-quant= tags_posts | size %}
+  {% if tag-quant > 0 %}
+    <div id="{{ index-tag|slugify }}" class="subject-tag-container well well-sm" >
+      <div class="site-index-label">
+        <h2>
+          {{index-tag}} <span class="badge">{{ tags_posts | size }}</span>
+          <a href="#{{index-tag|slugify}}">
+            <i class="site-index-target-toggle fa fa-plus-square pull-right" aria-hidden="true"></i> 
+          </a>     
+        </h2>
+      </div> 
+      <table>
+        {% for content-item in tags_posts %}
+          <tr>
+            <td>
+              <img src="../images/{{content-item.lead-image}}" alt="">
+            </td>
+            <td>
+              <a href="{{content-item.url}}">
+                <div class="site-index-title">
+                  {{content-item.post-title}}
+                </div>
+                <div class="site-index-subtitle">
+                  {{content-item.subtitle}}
+                </div>     
+              </a>
+            </td>
+          </tr>
+        {% endfor %}
+      </table>
+    </div>
+  {% endif %}
+{% endfor %}
