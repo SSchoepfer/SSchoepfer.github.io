@@ -1,0 +1,25 @@
+---
+layout: page
+title: Posts
+permalink: /posts/
+---
+<!-- Slider Start -->
+<section id="global-header">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h1>Archive</h1>
+          <p>  </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
