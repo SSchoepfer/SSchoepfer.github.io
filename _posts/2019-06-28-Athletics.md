@@ -4,6 +4,7 @@ published: true
 author: Steve
 permalink: /athletics/
 categories: Athletics
+tags: sports
 ---
 - Sat June 29th, BBall tourney @ House of Sports
 - Sun June 30th, PhilUSA Playoffs vs. 'Green'
