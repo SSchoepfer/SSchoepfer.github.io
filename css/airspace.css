@@ -820,3 +820,60 @@ footer .footer-manu ul li a {
 footer .footer-manu ul li a:hover {
   color: #000;
 }
+
+
+/*--
+	Tag Cloud Start
+--*/
+
+
+.tag-cloud{
+    margin: 0px 0px 0px -5px;
+    position: relative;
+}
+
+.tag-cloud-full-tag{
+    transform: scale(1.0);
+    transition: all 525ms ease-out;
+    display: inline-block;
+    padding: .1em;
+    border-radius: 4px;
+    position: relative;
+}
+
+.tag-cloud-full-tag:hover{
+    transform: scale(1.35);
+    background-color: $main-background;
+    opacity: 1;
+    z-index: 600;   
+}
+
+.tag-cloud-title{
+    padding: 0px;  
+}
+
+.tag-cloud-size-1{
+    font-size: .7em;
+} 
+.tag-cloud-size-2{
+    font-size: .9em;
+} 
+.tag-cloud-size-3{
+        font-size: 1.1em;
+    } 
+.tag-cloud-size-4{
+    font-size: 1.25em;
+} 
+.tag-cloud-size-5{
+    font-size: 1.5em;
+} 
+.tag-cloud-size-6{
+    font-size: 1.7em;
+}
+
+.tag-cloud-quantity{
+    font-size: .5em;
+    margin-left: -.2em;
+    z-index: 700;
+}
+
