@@ -35,4 +35,5 @@ tags: sports
 - Tue August 6th, BBall @ NYSC (Shootaround w/ SP, 1v1 W v. Baron Davis, Steam)
 - Wed August 7th, Yoga🙏
 - Thu August 8th, BBall @ CSI
-
+- Fri August 9th, Chill yoga @ Urby w/ [Mel](https://www.instagram.com/tvyogi) 
+- Sun August 11th, BBall @ PhilUSA (Diamond squad wins vs. PJs champ team. Left index finger bruised / jammed!)  
