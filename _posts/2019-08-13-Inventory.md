@@ -7,6 +7,7 @@ modify_date: 2019-06-10
 permalink: /inventory/
 tags: sale
 ---
+### [Steve's Musical Gear Inventory Spreadsheet - Google Sheets](https://docs.google.com/spreadsheets/d/1WnyGeQ3Zh1zCdCykqjxP7eMWxxOVyRzB-vpHHXC08gk/edit#gid=0)
 
 <style>
 .responsive-wrap iframe{ max-width: 100%;}
