@@ -36,4 +36,8 @@ tags: sports
 - Wed August 7th, Yoga🙏
 - Thu August 8th, BBall @ CSI
 - Fri August 9th, Chill yoga @ Urby w/ [Mel](https://www.instagram.com/tvyogi) 
-- Sun August 11th, BBall @ PhilUSA (Diamond squad wins vs. PJs champ team. Left index finger bruised / jammed!)  
+- Sun August 11th, BBall @ PhilUSA (Diamond squad wins vs. PJs champ team. Left index finger bruised / jammed!)
+- Fri August 16th, Trail-running, Yoga & meditation
+- Sat August 17th, Yoga & meditation, Hiking, Trail-running, Yoga & meditation
+- Sun August 18th, Yoga & meditation
+- Mon August 19th, 
