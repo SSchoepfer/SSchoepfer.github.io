@@ -41,3 +41,5 @@ tags: sports
 - Sat August 17th, Yoga, hiking, trail-running, yoga 
 - Sun August 18th, Yoga
 - Mon August 19th, Yoga
+- 8/21/19, Yoga
+- 8/25/19, Yoga @ Tibetan Museam, BBall @ PhilUSA (W) 
