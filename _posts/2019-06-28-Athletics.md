@@ -43,4 +43,6 @@ tags: sports
 - Mon August 19th, Yoga
 - 8/21/19, Yoga
 - 8/25/19, Yoga @ Tibetan Museam, BBall @ PhilUSA (W)
-- 8/27/29, BBall @ NYSC
+- 8/27/19, BBall @ NYSC
+- 8/31/19, Lots of walking in NYC (approx 10 miles)
+- 9/2/19, Jumprope and stretching with pushup intervals @ Urby, heavybag, bball pickup games, and steam, sauna @ nysc 
