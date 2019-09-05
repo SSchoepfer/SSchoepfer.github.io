@@ -16,16 +16,6 @@ permalink: /posts/
     </div>
   </div>
 </section>
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
-
-
-
 {% assign postsByYear =
     site.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
 {% for year in postsByYear %}
@@ -39,5 +29,3 @@ permalink: /posts/
 
 
 {% include archive2.html %}
-
-
