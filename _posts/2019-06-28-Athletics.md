@@ -46,4 +46,6 @@ tags: sports
 - 8/27/19, BBall @ NYSC
 - 8/31/19, Lots of walking in NYC (approx 10 miles)
 - 9/2/19, Jumprope and stretching with pushup intervals @ Urby, heavybag, bball pickup games, and steam, sauna @ nysc 
-- 9/4/19, Heavybag and light b-balling at nysc, steam sauna 
+- 9/4/19, Heavybag and light b-balling at nysc, steam sauna
+- 9/6/19, Yoga w/ Mel after a few weeks off
+- 9/8/19, BBall @ Philusa (L, but I had 25 pts, was 100% from FT line, played the entire game)
