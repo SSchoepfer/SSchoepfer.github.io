@@ -49,3 +49,4 @@ tags: sports
 - 9/4/19, Heavybag and light b-balling at nysc, steam sauna
 - 9/6/19, Yoga w/ Mel after a few weeks off
 - 9/8/19, BBall @ Philusa (L, but I had 25 pts, was 100% from FT line, played the entire game)
+- 9/9/19, Half hour [power flow](https://www.ashtangayoga.info/practice/intermediate-series-nadi-shodhana/item/mukta-hasta-shirshasana-a/) 
