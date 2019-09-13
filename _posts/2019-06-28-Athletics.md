@@ -52,3 +52,4 @@ tags: sports
 - 9/9/19, Half hour [power flow](https://www.ashtangayoga.info/practice/intermediate-series-nadi-shodhana/item/mukta-hasta-shirshasana-a/)
 - 9/11/19, Jump-rope, Heavybag (gloves only, no wraps), then hot yoga class with lots of headstands and inversions
   - Ended up with a minor tweak in the elbow that was a bit uncomfortable
+- 9/12/19, ~10 late night pull-ups, neutral grip and wider grip
