@@ -53,4 +53,5 @@ tags: sports
 - 9/11/19, Jump-rope, Heavybag (gloves only, no wraps), then hot yoga class with lots of headstands and inversions
   - Ended up with a minor tweak in the elbow that was a bit uncomfortable
 - 9/12/19, ~10 late night pull-ups, neutral grip and wider grip
-- 9/15/19, BBall @ PhilUSA, (L) to Lime Green Sunset Park 
+- 9/15/19, BBall @ PhilUSA, (L) to Lime Green Sunset Park
+- 9/16/19, Monday Yoga w Mel
