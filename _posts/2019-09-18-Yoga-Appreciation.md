@@ -2,7 +2,7 @@
 layout: post
 published: false
 author: Steve
-permalink: /TVYogiAppreciation/
+permalink: /YogaAppreciation/
 categories: Athletics
 tags: sports
 ---
