@@ -55,4 +55,4 @@ tags: sports
 - 9/12/19, ~10 late night pull-ups, neutral grip and wider grip
 - 9/15/19, BBall @ PhilUSA, (L) to Lime Green Sunset Park
 - 9/16/19, Monday Yoga w Mel
-= 9/20/19, Heavybag
+- 9/20/19, Heavybag
