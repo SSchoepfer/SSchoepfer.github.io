@@ -56,3 +56,4 @@ tags: sports
 - 9/15/19, BBall @ PhilUSA, (L) to Lime Green Sunset Park
 - 9/16/19, Monday Yoga w Mel
 - 9/20/19, Heavybag
+- 9/24/19, 7 mile run @ Silver Lake
