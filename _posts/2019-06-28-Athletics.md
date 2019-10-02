@@ -59,4 +59,5 @@ tags: sports
 - 9/24/19, 7 mile run @ Silver Lake
 - 9/25/19, Yoga
 - 9/29/19, BBall and steam @ Nysc
-- 9/30/19, BBall, bodyweight exercise, and steam @ Nysc. Kundalini gong yoga @ Urby 
+- 9/30/19, BBall, bodyweight exercise, and steam @ Nysc. Kundalini gong yoga @ Urby
+- 10/1/19, QiGong kung fu @ Urby 
