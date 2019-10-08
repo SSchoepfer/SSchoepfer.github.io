@@ -62,4 +62,5 @@ tags: sports
 - 9/30/19, BBall, bodyweight exercise, and steam @ Nysc. Kundalini gong yoga @ Urby
 - 10/1/19, QiGong kung fu @ Urby
 - 10/2/19, Yoga
-- 10/3/19, Lots of walking. NYCC'19 Day 1/4  
+- 10/3/19, Lots of walking. NYCC'19 Day 1/4
+- 10/7/19, Yoga w/ Mel
