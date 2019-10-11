@@ -4,10 +4,10 @@ published: true
 author: Steve
 categories: html 
 ---
-#### Click on my eye to be re-directed to the home page of this site: 
+#### Click on Twitter Links:  
 
-<img usemap="#image-map" src="/img/SS_Face_Logo.png">
+<img usemap="#image-map" src="/img/SIBO Header.png">
 
 <map name="image-map">
-    <area shape="poly" coords="464,283" href="sschoepfer.github.io"  >
+    <area target="" alt="VGTwitter" title="VGTwitter" href="twitter.com/vgallassio" coords="624,217,525,238" shape="rect">
 </map>
