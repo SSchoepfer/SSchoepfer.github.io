@@ -1,4 +1,10 @@
-
+---
+layout: post
+published: true
+author: Steve
+permalink: /athletics/
+categories: Python
+---
 ### Preliminaries
 
 
