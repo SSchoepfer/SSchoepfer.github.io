@@ -1,10 +1,10 @@
 ---
 layout: post
-published: true
+published: false
 author: Steve
-permalink: /athletics/
-categories: Athletics
-tags: sports
+permalink: 
+categories: 
+tags: 
 ---
 
 Differecne btwn categories and tags: 
