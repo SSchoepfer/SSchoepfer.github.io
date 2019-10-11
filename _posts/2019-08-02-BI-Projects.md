@@ -15,4 +15,4 @@ Things got lost when I had the central technology department start a Sharepoint 
 
 [Regents Dashboard](https://app.powerbi.com/view?r=eyJrIjoiZmE4YmM3YWQtMjg2NC00YTVjLThhNTItYWNlYzA2MzcwOGIwIiwidCI6IjE4NDkyY2I3LWVmNDUtNDU2MS04NTcxLTBjNDJlNWY3YWMwNyIsImMiOjN9)
 
-[School performance v Economic need index bi variate scatter w slicers](https://app.powerbi.com/view?r=eyJrIjoiZjM5YTVmZTEtYzEyMi00Y2YzLTg0M2UtY2ZlNWEwNTlhYzhkIiwidCI6IjE4NDkyY2I3LWVmNDUtNDU2MS04NTcxLTBjNDJlNWY3YWMwNyIsImMiOjN9)
+[School Performance v Economic Need Index Bi-variate Scatter Plot w Slicers](https://app.powerbi.com/view?r=eyJrIjoiZjM5YTVmZTEtYzEyMi00Y2YzLTg0M2UtY2ZlNWEwNTlhYzhkIiwidCI6IjE4NDkyY2I3LWVmNDUtNDU2MS04NTcxLTBjNDJlNWY3YWMwNyIsImMiOjN9)
