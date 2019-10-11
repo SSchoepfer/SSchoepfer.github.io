@@ -13,3 +13,11 @@ I installed Power BI Desktop on my work PC at the end of January 2018. Since thi
 Things got lost when I had the central technology department start a Sharepoint group with the same name as my PBI workspace, so I lost all of the 'workspace' things that were pushed from desktop to O365. Not a huge deal, because the things I had created were still saved as .pbix files on my desktop, and the published reports were still live via the public links. 
 
 
+Regents Dashboard
+
+https://app.powerbi.com/view?r=eyJrIjoiZmE4YmM3YWQtMjg2NC00YTVjLThhNTItYWNlYzA2MzcwOGIwIiwidCI6IjE4NDkyY2I3LWVmNDUtNDU2MS04NTcxLTBjNDJlNWY3YWMwNyIsImMiOjN9
+
+
+School performance v Economic need index bi variate scatter w slicers
+
+https://app.powerbi.com/view?r=eyJrIjoiZjM5YTVmZTEtYzEyMi00Y2YzLTg0M2UtY2ZlNWEwNTlhYzhkIiwidCI6IjE4NDkyY2I3LWVmNDUtNDU2MS04NTcxLTBjNDJlNWY3YWMwNyIsImMiOjN9
