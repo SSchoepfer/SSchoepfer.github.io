@@ -3,6 +3,7 @@ layout: post
 title: Python for Data Science
 categories: Python
 author: Steve
+tags: python
 published: true
 ---
 
