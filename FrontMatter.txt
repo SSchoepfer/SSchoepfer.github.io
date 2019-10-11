@@ -1,0 +1,48 @@
+---
+layout: post
+published: true
+author: Steve
+permalink: /athletics/
+categories: Athletics
+tags: sports
+---
+
+Differecne btwn categories and tags: 
+
+Categories:
+Sale
+Education
+Music
+Athletics
+html
+Misc
+Python
+
+
+Tags: 
+sale
+sports
+music
+python
+
+Post Names and descriptions
+
+
+How to create a tags page: 
+make a [tag].md file in the tag folder. and then use this as the fornt matter: 
+
+---
+layout: tagpage
+title: "Tag: sports"
+tag: sports
+---
+
+Image mapping: 
+Get the code from here: 
+https://www.image-map.net/
+
+Posting a Jupyter notebook to github page using the convert function in Anaconda Prompt: 
+
+https://blomadam.github.io/tutorials/2017/04/09/ipynb-to-Jekyll-Post-tools.html
+
+
