@@ -2,6 +2,7 @@
 layout: post
 published: true
 author: Steve
+tags: python
 categories: Python
 ---
 ### Preliminaries
