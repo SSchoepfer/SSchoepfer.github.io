@@ -6,11 +6,10 @@ author: Steve
 permalink: /music/
 published: true
 ---
-
 + MySpace
   + They took down all of these songs!
 ![MySpace took down all of these songs](/img/RafailDeLaGetoMyspace.png)
-+ BandCamp
-+ SoundCloud
-+ SoundCloud
-+ Blend
++ [BandCamp](https://zalbaag.bandcamp.com/)
++ [SoundCloud](https://soundcloud.com/steveshow4)
++ [SoundCloud](https://soundcloud.com/young-anthony-hopkins)
++ [Blend](https://blend.io/steveshow4#_=_)
