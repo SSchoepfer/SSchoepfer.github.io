@@ -29,7 +29,7 @@ I have the Ableton session that Pasq recorded. I want to listen and upload chunk
 
 I was using the Tama burgundy kick, Ludwig snare w/ Dream FX, two sets of hats (Custom Dark K's on the left, Vintage New-Beats on the right) two floor toms (Slingerland, Zimgar) and the big boy 24" ride (Vintage Joey P Zildjian A) 
 
-Here's a photo of the kit ![Drums July 2019](/img/IMG_20190710_215012.jpg)
+Here's a photo of the kit ![Drums July 2019](/img/IMG_20190710_215012.jpg){:class="img-responsive"}
 
 ### What Happened at the Stew: June 12th, 2019
 Walked in, played some solo drums.
