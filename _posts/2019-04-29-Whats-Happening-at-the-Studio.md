@@ -4,9 +4,10 @@ title: What's Happening at the Studio?
 author: Steve
 meta: Studio
 categories: Music
+permalink: /studio/
 tags: music
 ---
-#### Idea: Running journal of studio sessions   
+#### Idea: Running log of studio sessions   
 Doing this will keep my momentum up on musical projects, and help me to gain clarity, in a musical and creative sense. I hope to log **every** session here, regardless of duration or 'productivity' of the session. I'm sure this will go through plenty of edits as I continue to build on this site and write more. Below is my first entry into the "What Happened at the Studio" series.
 
 ### What Happened at the Stew: April 29, 2019 
