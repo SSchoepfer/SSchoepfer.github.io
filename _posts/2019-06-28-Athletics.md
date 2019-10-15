@@ -65,3 +65,4 @@ tags: sports
 - 10/3/19, Lots of walking. NYCC'19 Day 1/4
 - 10/7/19, Yoga
 - 10/9/19, Yoga
+- 10/14/19, Monday Yoga practice w/ Mel
