@@ -11,3 +11,7 @@ categories: html
     <area target="_blank" alt="ALTwitter" title="ALTwitter" href="http://twitter.com/execsupalodico" coords="902,176,1103,212" shape="rect">
     <area target="_blank" alt="KRTwitter" title="KRTwitter" href="http://twitter.com/kimramonesdoe" coords="972,215,1107,240" shape="rect">
 </map>
+
+
+
+Same image but written with the responsive class, inline markdown ![SIBOExecHeader](/img/SIBO Header.png){:class="img-responsive"}
