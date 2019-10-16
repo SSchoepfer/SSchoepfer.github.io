@@ -12,5 +12,7 @@ categories: html
     <area target="_blank" alt="KRTwitter" title="KRTwitter" href="http://twitter.com/kimramonesdoe" coords="972,215,1107,240" shape="rect">
 </map>
 
+
 #### Same image, but written with the 'responsive' class in Markdown. This image will re-size according to browser window, but no image maps. 
+
 ![SIBOExecHeader](/img/SIBO Header.png){:class="img-responsive"}
