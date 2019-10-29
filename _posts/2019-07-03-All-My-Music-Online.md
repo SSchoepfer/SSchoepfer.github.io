@@ -17,3 +17,8 @@ published: true
 
 
 [elephant](/architecture.mp3)
+
+
+
+
+<audio src="/architecture.mp3" preload="none" controls="controls"></audio>
