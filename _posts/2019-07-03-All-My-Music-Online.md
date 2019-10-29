@@ -7,7 +7,7 @@ permalink: /music/
 published: true
 tags: music
 ---
-+ MySpace
++ [MySpace](https://myspace.com/rafaeldelageto)
   + They took down all of these songs!
 ![MySpace took down all of these songs](/img/RafailDeLaGetoMyspace.png){:class="img-responsive"}
 + [BandCamp](https://zalbaag.bandcamp.com/)
