@@ -68,4 +68,5 @@ tags: sports
 - 10/14/19, Monday Yoga practice w/ Mel
 - 10/15/19, BBall @ CSI 
 - 10/16/19, Yoga, Intense Wednesday class
-- 10/23/19, Yogi
+- 10/23/19, Yoga
+- 10/28/19, Yoga
