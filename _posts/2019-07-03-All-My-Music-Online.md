@@ -5,6 +5,7 @@ categories: Music
 author: Steve
 permalink: /music/
 published: true
+tags: music
 ---
 + MySpace
   + They took down all of these songs!
