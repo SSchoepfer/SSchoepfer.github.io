@@ -70,3 +70,4 @@ tags: sports
 - 10/16/19, Yoga, Intense Wednesday class
 - 10/23/19, Yoga
 - 10/28/19, Yoga
+- 10/30/19, Yoga, Intense/hot Wednesday class 
