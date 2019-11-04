@@ -70,4 +70,5 @@ tags: sports
 - 10/16/19, Yoga, Intense Wednesday class
 - 10/23/19, Yoga
 - 10/28/19, Yoga
-- 10/30/19, Yoga, Intense/hot Wednesday class 
+- 10/30/19, Yoga, Intense/hot Wednesday class
+- 11/1/19, Late night BBall open gym at ASD. Good full court runs, then Urby gym for some weights.  
