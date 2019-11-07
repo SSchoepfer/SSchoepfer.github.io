@@ -72,4 +72,5 @@ tags: sports
 - 10/28/19, Yoga
 - 10/30/19, Yoga, Intense/hot Wednesday class
 - 11/1/19, Late night BBall open gym at ASD. Good full court runs, then Urby gym for some weights.  
-- 11/4/19, Monday weightlifting (w/ Mike) bench-press, low cable flyes, tricep extension, diamond-grip pushups, wide-grip pushups all until failure.   
+- 11/4/19, Monday weightlifting: Bench-press, low cable flyes, tricep extension, diamond-grip pushups, wide-grip pushups, all until failure
+- 11/6/19, Wednesday Yoga, Chest was still soar from Monday, so hard to do chataranga up-dog
