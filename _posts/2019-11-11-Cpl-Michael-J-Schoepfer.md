@@ -1,4 +1,8 @@
-
+---
+layout: post
+published: false
+author: Steve  
+---
 
 
 "Transcending the Ultimate Barriers of Time and Space" is a phrase on a book my cousin Michael gave to me. 
