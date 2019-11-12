@@ -19,10 +19,10 @@ This phrase has been replaying in my mind whenever I think about him.
 
 Corporal Michael J Schoepfer was the smartest, strongest, most kind person in my life, ever. He would always be ready to teach me something, lend me a book, tell a funny story, or share some music that he was into. 
 
-Here he is in Afghanistan in October of 2010 
+Here he is in Afghanistan in October of 2010, being a bad-ass American hero during Operation Enduring Freeedom. 
 
 Insert photo : 
 []
 
 
-Two months before this photo was taken, he had performed in 
+Two months before this photo was taken, his performance on the battlefield earned him the Marines Achievement medal.  
