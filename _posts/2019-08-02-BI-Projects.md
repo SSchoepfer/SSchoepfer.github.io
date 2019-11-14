@@ -1,6 +1,6 @@
 ---
 layout: post
-title: BI Projects
+title: Business Intelligence Projects
 categories: Education 
 author: Steve
 permalink: /bi/
