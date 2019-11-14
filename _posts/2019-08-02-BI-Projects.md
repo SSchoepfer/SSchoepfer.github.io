@@ -5,6 +5,7 @@ categories: Education
 author: Steve
 permalink: /bi/
 published: true
+tags: education
 ---
 ### Microsoft Power BI
 #### Background 
