@@ -75,4 +75,5 @@ tags: sports
 - 11/4/19, Monday weightlifting: Bench-press, low cable flyes, tricep extension, diamond-grip pushups, wide-grip pushups, all until failure
 - 11/6/19, Wednesday Yoga, Chest was still soar from Monday, so hard to do chataranga up-dog
 - 11/11/19, Monday Veterans Day @ NYSC, Dips(3*10), Neutral pull-ups(3*5) Hanging leg raises, Decline bench @ 115 (8,8,4), Basketball, Sauna
-- 11/13/19, Wednesday Yoga 
+- 11/13/19, Wednesday Yoga
+- 11/18/19, Monday Yoga 
