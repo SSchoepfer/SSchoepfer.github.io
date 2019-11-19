@@ -6,6 +6,9 @@ author: Steve
 tags: python
 published: true
 ---
+[Data Visualizations in Python and Jupyter Notebook Link to NB Viewer](https://nbviewer.jupyter.org/github/SSchoepfer/SSchoepfer.github.io/blob/master/Data%20Visualization%20with%20Python.ipynb)
+
+
 
 ```python
 # Basic Strings in Python 
