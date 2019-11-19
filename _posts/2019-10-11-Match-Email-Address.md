@@ -5,6 +5,10 @@ author: Steve
 tags: python
 categories: Python
 ---
+ This content was taken from [Chris Albon](https://chrisalbon.com/regex/patterns/match_email_addresses/) _Thank you_
+ Written in Jupyter Notebook, then posted to github page using the convert function in Anaconda Prompt, taken from [this article](https://blomadam.github.io/tutorials/2017/04/09/ipynb-to-Jekyll-Post-tools.html)
+
+
 ### Preliminaries
 
 
