@@ -76,4 +76,6 @@ tags: sports
 - 11/6/19, Wednesday Yoga, Chest was still soar from Monday, so hard to do chataranga up-dog
 - 11/11/19, Monday Veterans Day @ NYSC, Dips(3*10), Neutral pull-ups(3*5) Hanging leg raises, Decline bench @ 115 (8,8,4), Basketball, Sauna
 - 11/13/19, Wednesday Yoga
-- 11/18/19, Monday Yoga 
+- 11/18/19, Monday Yoga
+- 11/19/19, Heavy 5v5 full court Bball @ CSI 
+- 11/20/19, Downtown Brooklyn NYSC for a few minutes during lunch break:dips, pullups, stretching out he floor
