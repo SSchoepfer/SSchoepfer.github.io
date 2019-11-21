@@ -78,4 +78,4 @@ tags: sports
 - 11/13/19, Wednesday Yoga
 - 11/18/19, Monday Yoga
 - 11/19/19, Heavy 5v5 full court Bball @ CSI 
-- 11/20/19, Downtown Brooklyn NYSC for a few minutes during meeting lunch break:dips, pullups, stretching on the floor;Mmade it to 730 yoga, having had x pints of Guiness < 2 hrs prior. Nice.  
+- 11/20/19, Downtown Brooklyn NYSC for a few minutes during meeting lunch break:dips, pullups, stretching on the floor. Made it to 7:30 yoga, having had x pints of Guiness < 2 hrs prior. Nice.
