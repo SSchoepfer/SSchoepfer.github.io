@@ -80,4 +80,4 @@ tags: sports
 - 11/19/19, Heavy 5v5 full court Bball @ CSI 
 - 11/20/19, Downtown Brooklyn NYSC for a few minutes during meeting lunch break:dips, pullups, stretching on the floor. Made it to 7:30 yoga, having had x pints of Guiness < 2 hrs prior. Nice.
 - 11/25/19, Monday yoga practice
-- 11/26/19, FUJI bike ride to and from SI Ferry. Bay St. on the way there (Bike Lanes kinda dangerous) and Front St. on way home (extremely dark, good thing I brought my bike-headlight)    
+- 11/26/19, FUJI bike ride to and from SI Ferry. Bay St. on the way there (bike lanes are in the car lanes) and Front St. on way home (extremely dark, good thing I brought my bike-headlight)    
