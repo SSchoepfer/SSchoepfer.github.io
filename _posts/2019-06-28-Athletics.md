@@ -83,3 +83,4 @@ tags: sports
 - 11/26/19, FUJI bike ride to and from SI Ferry. Bay St. on the way there (bike lanes are in the car lanes) and Front St. on way home (extremely dark, good thing I brought my bike-headlight)
 - 11/27/19, Wednesday yoga practice 
 - 11/28/19, Thanksgiving 
+- 11/29/19, 30 m Elliptical (lol) and some pullups pushups 
