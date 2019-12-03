@@ -84,3 +84,4 @@ tags: sports
 - 11/27/19, Wednesday yoga practice 
 - 11/28/19, Thanksgiving 
 - 11/29/19, 30 m Elliptical (lol) and some pullups pushups 
+- 12/2/19, 3 mile treadmill jog + yoga  
