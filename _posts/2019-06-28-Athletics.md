@@ -87,4 +87,5 @@ tags: sports
 - 12/2/19, 3 mile treadmill jog + yoga  
 - 12/4/19, BBall @ nysc + 
 - 12/11/19, Wednesday Yoga, just getting over a 'stomach flu'. Felt weak and dizzy, but glad I got it done. 
+- 12/12/19, Thursday after work and school, right before bed, a nice, quick arm and shoulder kettlebell workout + some squats as well.  
 
