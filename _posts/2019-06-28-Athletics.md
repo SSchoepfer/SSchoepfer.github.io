@@ -88,4 +88,4 @@ tags: sports
 - 12/4/19, BBall @ nysc + 
 - 12/11/19, Wednesday Yoga, just getting over a 'stomach flu'. Felt weak and dizzy, but glad I got it done. 
 - 12/12/19, Thursday after work and school, right before bed, a nice, quick arm and shoulder kettlebell workout + some squats as well.  
-
+- 12/15/19, Learned about kettle bell form on Youtube especially Turkish get-ups, and swings. Practicing good form and getting back into KBs for full body workout. Late night gym session @ Urby: Dumb bell incline press 35lb DBs 3x10, Various grip pull-ups, and 2 handed KB swings 
