@@ -8,11 +8,9 @@ tags: personal
 ---
 Corporal Michael J Schoepfer, United States Marine Corps  
 
-Here he is in Afghanistan in October of 2010, during Operation Enduring Freeedom. 
+Here he is in Afghanistan in October of 2010, during Operation Enduring Freedom![MJ](/img/MJ.jpg){:class="img-responsive"}
 
 [US Marines Patrol Remote Part Of Helmand Province Near Kajaki Dam](https://www.gettyimages.com/detail/news-photo/marine-cpl-michael-schoepfer-of-staten-island-ny-with-india-news-photo/105976779)
-
-[]
 
 Four months before that photo was taken, his performance on the battlefield earned him the 'Navy and Marine Corps Achievement Medal' for: 
 
