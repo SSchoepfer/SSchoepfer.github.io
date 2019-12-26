@@ -3,7 +3,7 @@ layout: post
 published: false
 author: Steve
 categories: personal
-modify_date: 2019-11-12 
+modify_date: 2019-12-26 
 tags: personal
 ---
 Corporal Michael J Schoepfer, United States Marine Corps  
