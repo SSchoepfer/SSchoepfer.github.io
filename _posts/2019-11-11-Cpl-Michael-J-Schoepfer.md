@@ -6,7 +6,9 @@ categories: personal
 modify_date: 2019-12-26 
 tags: personal
 ---
-Corporal Michael J Schoepfer, United States Marine Corps  
+Corporal Michael J Schoepfer, United States Marine Corps 
+
+12/26/1980 - 9/21/2019
 
 Here he is in Afghanistan in October of 2010, during Operation Enduring Freedom![MJ](/img/MJ.jpg){:class="img-responsive"}
 
