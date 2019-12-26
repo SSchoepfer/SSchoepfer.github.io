@@ -1,14 +1,14 @@
 ---
 layout: post
-published: false
+published: true
 author: Steve
 categories: personal
 modify_date: 2019-12-26 
 tags: personal
 ---
-Corporal Michael J Schoepfer, United States Marine Corps 
+This is a personal post dedicated to my cousin, Corporal Michael J Schoepfer, United States Marine Corps.
 
-12/26/1980 - 9/21/2019
+Rest in Peace Michael John (12/26/1980 - 9/21/2019) 
 
 Here he is in Afghanistan in October of 2010, during Operation Enduring Freedom![MJ](/img/MJ.jpg){:class="img-responsive"}
 
