@@ -90,3 +90,6 @@ tags: sports
 - 12/12/19, Thursday after work and school, right before bed, a nice, quick arm and shoulder kettlebell workout + some squats as well.  
 - 12/15/19, Learned about kettle bell form on Youtube especially Turkish get-ups, and swings. Practicing good form and getting back into KBs for full body workout. Late night gym session @ Urby: Dumb bell incline press 35lb DBs 3x10, Various grip pull-ups, and 2 handed KB swings 
 - 12/16/19, Yoga
+- 12/25/19, Short run, Navy Pier 
+- 12/26/19, BBall @ CSI 
+- 12/27/19, 2 mile run, Navy Pier
