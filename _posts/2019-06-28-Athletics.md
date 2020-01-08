@@ -93,4 +93,5 @@ tags: sports
 - 12/25/19, Short run, Navy Pier 
 - 12/26/19, BBall @ CSI 
 - 12/27/19, 2 mile run, Navy Pier
-- 1/2/2020, Double dose of BBall. Post-work straight to NYSC, 3v3 ballin' and steam sauna. Then full court runs at CSI.  
+- 1/2/2020, Double dose of BBall. Post-work straight to NYSC, 3v3 ballin' and steam sauna. Then full court runs at CSI. 
+- 1/6/2020, Yoga
