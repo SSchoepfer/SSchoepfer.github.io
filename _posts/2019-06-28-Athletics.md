@@ -95,3 +95,4 @@ tags: sports
 - 12/27/19, 2 mile run, Navy Pier
 - 1/2/2020, Double dose of BBall. Post-work straight to NYSC, 3v3 ballin' and steam sauna. Then full court runs at CSI. 
 - 1/6/2020, Yoga
+- 1/7/2020, King Spa Fitness 
