@@ -96,3 +96,4 @@ tags: sports
 - 1/2/2020, Double dose of BBall. Post-work straight to NYSC, 3v3 ballin' and steam sauna. Then full court runs at CSI. 
 - 1/6/2020, Yoga
 - 1/7/2020, King Spa Fitness 
+- 1/9/2020, BBall @ CSI
