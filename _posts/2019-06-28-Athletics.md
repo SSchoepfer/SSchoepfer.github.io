@@ -97,3 +97,4 @@ tags: sports
 - 1/6/2020, Yoga
 - 1/7/2020, King Spa Fitness 
 - 1/9/2020, BBall @ CSI
+- 1/11/2020, [40 min Run Urby -> Silver Lake via Sunrise Terrace](https://connect.garmin.com/modern/activity/4425243311)  
