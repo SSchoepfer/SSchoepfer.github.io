@@ -100,3 +100,6 @@ tags: sports
 - 1/11/2020, [40 min Run Urby -> Silver Lake via Sunrise Terrace](https://connect.garmin.com/modern/activity/4425243311) 
 - 1/13/2020, Yoga @ Urby
 - 1/16/2020, BBall @ CSI 
+- 1/20/2020, Yoga @ [Downtown Yoga Mephis](https://www.downtownyogamemphis.com)
+- 1/21/2020, Incline dumbell press 
+- 1/22/2020, Yoga @ Urby
