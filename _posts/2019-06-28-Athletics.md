@@ -103,3 +103,6 @@ tags: sports
 - 1/20/2020, Yoga @ [Downtown Yoga Mephis](https://www.downtownyogamemphis.com)
 - 1/21/2020, Incline dumbell press 
 - 1/22/2020, Yoga @ Urby
+- 1/25/2020, BBall Tourney @ Jersey City Armory, 40U Division, in support of the Taal volcanic eruption
+- 1/26/2020, Light BBall @ NYSC, incline DB presses (4 sets), some dips, chest press, sauna 
+
