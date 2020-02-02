@@ -2,12 +2,12 @@
 layout: post
 published: false
 author: Steve
-permalink: /YogaAppreciation/
+permalink: /Yoga/
 categories: Athletics
 tags: sports
 ---
 ### Background
-In 2012 I was in bad shape. I had done damage to my body, specifically my back. This was caused by inactivity, and sitting too much. I lived in Staten Island and worked in Brooklyn. Every weekday I would sit down for an hour+ bus ride, get to Manhattan, then take a short train ride to Downtown Brooklyn. I'd reach my desk-job and sit for most of the day. On normal weekdays I would hop right back on the train and bus and sit down again, sometimes falling asleep on the bus in weird positions, waking up in a substancial amount of pain. 
+From around 2011-2012 I was in pretty bad shape. I had done damage to my body, specifically my back. This was caused by inactivity, and sitting too much. I lived in Staten Island and worked in Brooklyn. Every weekday I would sit down for an hour+ bus ride, get to Manhattan, then take a short train ride to Downtown Brooklyn. I'd reach my desk-job and sit for most of the day. On normal weekdays I would hop right back on the train and bus and sit down again, sometimes falling asleep on the bus in weird positions, waking up in a substancial amount of pain. 
  
 It came to a boiling point and I had to do something. I started going to a chiropractor, who suggested the Graston technique. This is a process where he used scary looking metal tools to intentionally bruise my back muscles. It worked. When the muscle and tissue healed, it had healed 'correctly', and the acute pain was significantly lessened. This seemed like an extreme measure for a twenty-something guy who was athletic for most of my life. 
   
