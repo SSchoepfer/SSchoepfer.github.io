@@ -39,3 +39,8 @@ Few coldies because Friday.
 Chopped it up with Joey on the pads, then on all 3 classic kits.  
 Gretsch, Sonor, Ludwig, all decked out with the rarest cymbals...  All such beautiful sounding and unique sets. 
 Hope to keep learning from JP.
+
+
+
+### What Happened at the Stew: Feb 13th, 2020
+A mid-month Thursday. Which means its time to pay stew rent. Pasq, Mario and I took that opportunity to get right to jamming. I started by playing double stroke rolls on both hi hats while opening and closing the left hat. I thought it generated a driving, buildup to all the jams to come. When things built up enough I was focusing on clean grooves, being mindful of each hit and fill. We played for a while, I would lose focus sometimes while my mind wandered. I had to remind myself a few times to listen closer and keep my mind focused on the music. I found myself worrying about work, of all things. I would find myself getting caught up in something I said over an email to colleagues and cringing. Just to look up and realize I had lost the flow of the music while my mind wandered to things I had no control over at that point. I have to remember to use this studio and my music as a creative outlet and try not to let things outside my control bother me while I’m in the moment of creating. At some point I dropped into a 'Weekapaug Groove' type drum beat and was pushing the tempo pretty fast. It was fun to throw in some clean single stroke fills and experiment with style I don't usually go for. I was also thinking about the gospel drummers from Faith in Action, and trying to incorporate some of those relentless-fill and crash type beats. Overall very fun night of music but I realize my mind was wandering. Excited for another session soon.   
