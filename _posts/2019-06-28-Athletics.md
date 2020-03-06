@@ -112,3 +112,5 @@ tags: sports
 - 2/24/2020, BBall @ NYSC 
 - 2/27/2020, BBall @ CSI 
 - 3/4/2020, BBall @ NYSC 
+- 3/5/2020, Lifting @ URBY (shoulders, arms) & BBall @ CSI
+
