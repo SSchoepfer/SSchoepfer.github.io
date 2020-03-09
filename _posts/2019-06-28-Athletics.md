@@ -113,4 +113,7 @@ tags: sports
 - 2/27/2020, BBall @ CSI 
 - 3/4/2020, BBall @ NYSC 
 - 3/5/2020, Lifting @ URBY (shoulders, arms) & BBall @ CSI
+- 3/7/2020, ShenKu Body Sculpt Workout 3 (Saturday) with kettlebell 
+- 3/8/2020, 2.5 Mile run at Silver Lake (Garmin) 
+
 
