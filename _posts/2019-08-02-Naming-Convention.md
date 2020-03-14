@@ -5,7 +5,7 @@ categories: Misc
 author: Steve
 published: true
 permalink: /namingconvention/
-tafs: personal
+tags: personal
 ---
 _Naming Convention_
 
