@@ -7,9 +7,10 @@ published: true
 permalink: /namingconvention/
 tags: personal
 ---
-_Naming Convention_
+*Naming Convention*
 
-Administrative Education Analyst for the NYC Dept. of Education. 
-I Currently serve as Data Manager for the Staten Island Borough Office. 
-Right now I'm focused on attaining a Masters Degree in Database Systems from Touro College Grad School of Technology.
+Stephen G. Schoepfer 
+Administrative Education Analyst, NYC Dept. of Education 
+Data Manager, Staten Island Borough Office 
 
+Master of Science in Information Systems, Database Systems degree acquired from Touro Graduate School of Technology NYC
