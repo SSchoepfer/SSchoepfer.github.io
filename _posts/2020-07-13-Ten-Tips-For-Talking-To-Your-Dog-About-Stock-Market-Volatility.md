@@ -3,5 +3,6 @@ published: true
 ---
 ## 10 Tips for Talking to Your Dog About Stock Market Volatility
 
-
-[image]: https://photos.app.goo.gl/2sXjBD5pepstRnfw8 "tooltip"
+[![Creative Commons License](http://i.creativecommons.org
+    /l/by-nc-nd/3.0/88x31.png)](http://creativecommons.org/
+    licenses/by-nc-nd/3.0/)
