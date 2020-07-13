@@ -7,3 +7,8 @@ published: true
 
 
 ![Image of Kobe](https://photos.google.com/share/AF1QipNDXhop0zBoxQVMXBCukmUe8vpNzEKCGvJPGPvYmJtFvcgUx4ldOG3eJDJB4kgUIA/photo/AF1QipM-5OAhmNQsGnuJztkL39qBLsF3OQe7zfr7Peul?key=akpFRGd5WEZxbWZnbVhTVWY2c3hkSlBBaTJ4dnBB)
+
+
+
+
+![image](https://drive.google.com/uc?export=view&id=AF1QipNDXhop0zBoxQVMXBCukmUe8vpNzEKCGvJPGPvYmJtFvcgUx4ldOG3eJDJB4kgUIA)
