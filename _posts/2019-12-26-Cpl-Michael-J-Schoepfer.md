@@ -2,7 +2,7 @@
 layout: post
 published: true
 author: Steve
-categories: personal
+categories: Personal
 modify_date: 2019-12-26 
 tags: personal
 ---
