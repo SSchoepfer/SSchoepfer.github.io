@@ -57,6 +57,15 @@ permalink: /
 			   <!-- <li> Document my endeavors in music, coding, writing, and data visualization </li> --> 
 		</ul>  
 	         <p style="text-align: center;">{% include archive2.html %}</p>
+	      
+	   {% for category in site.categories %}
+            <h1>{{ category[0] }}</h3>
+            <ul>
+          {% for post in category[1] %}
+          <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+          {% endfor %}
+          </ul>
+{% endfor %}
 		
 	      <p> This site is hosted on <a href="https://github.com/SSchoepfer/SSchoepfer.github.io" target="_blank" rel="external" hreflang="en" type="text/html"> Github </a> </p>
 	      </div>
