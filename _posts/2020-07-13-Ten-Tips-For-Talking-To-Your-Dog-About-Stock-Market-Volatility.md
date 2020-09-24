@@ -2,7 +2,7 @@
 published: true
 layout: post
 author: Steve
-categories: finance
+categories: Finance
 tags: finance
 ---
 ## 10 Tips for Talking to Your Dog About Stock Market Volatility
