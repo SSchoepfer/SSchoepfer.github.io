@@ -112,7 +112,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	Slider Start
 --*/
 #slider {
-  background: lightblue; /*--url("../img/Lake.png") no-repeat; --*/
+  background: lightgray; /*--url("../img/Lake.png") no-repeat; --*/
   background-size: cover;
   background-attachment: fixed;
   background-position: 10% 0%;
