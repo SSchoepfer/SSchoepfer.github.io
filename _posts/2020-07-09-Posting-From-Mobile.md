@@ -1,4 +1,8 @@
 ---
+layout: post
+title: Posting From Mobile
+categories: Misc
+author: Steve
 published: true
 tags: blog
 ---
@@ -16,4 +20,3 @@ The cursor keeps jumping around.
 Not sure if its a keyboard issue, or just an issue with Prose.io on my Pixel2XL. Will look into that now. 
 
 At least I can confirm that publishing posts works just fine. 
-
