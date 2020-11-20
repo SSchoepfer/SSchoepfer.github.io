@@ -12,7 +12,7 @@ tags: music
 ![MySpace took down all of these songs](/img/RafailDeLaGetoMyspace.png){:class="img-responsive"}
 + [BandCamp](https://zalbaag.bandcamp.com/)
 + [SoundCloud](https://soundcloud.com/steveshow4)
-+ [SoundCloud](https://soundcloud.com/young-anthony-hopkins)
++ [SoundCloud](https://soundcloud.com/dino-lord-records)
 + [Blend](https://blend.io/steveshow4#_=_)
 
 
