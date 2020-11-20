@@ -1,7 +1,6 @@
 ---
 published: true
-Published: true
-ublished: true
+tags: blog
 ---
 ## A New Post 
 
