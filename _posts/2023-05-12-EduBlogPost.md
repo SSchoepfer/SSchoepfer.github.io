@@ -35,7 +35,7 @@ tags: education
     ****************************************************************************-->
       <h1><!-- Blog title -->Post Title</h1>
       <h3><!-- Tagline -->SOME AWESOME HERO TAGLINE</h3>
-      <div id="bannerImage"><img src="C:\Users\SSchoepfer\OneDrive - NYCDOE\Documents\My Pictures\SLAAAM.jpg" alt=""/></div>
+      <div id="bannerImage"><img src="/img/SLAAAM.jpg" alt=""/></div>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
       <aside id="authorInfo"> 
@@ -49,7 +49,7 @@ tags: education
     Sidebar starts here. It contains a searchbox, sample ad image and 6 links
     ****************************************************************************-->
       <input type="text" placeholder="Search">
-      <div id="adimage"><img src="C:\Users\SSchoepfer\OneDrive - NYCDOE\Documents\My Pictures\SmartBoard_Bart.gif" alt=""/></div>
+      <div id="adimage"><img src="/img\SmartBoard_Bart.gif" alt=""/></div>
       <nav>
         <ul>
           <li><a href="#" title="Link">Link1</a></li>
