@@ -1,5 +1,6 @@
 ---
 layout: post
+title: Edu Blog Post
 published: true
 author: Steve
 categories: Education
