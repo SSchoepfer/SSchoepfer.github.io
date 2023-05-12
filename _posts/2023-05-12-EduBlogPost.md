@@ -22,8 +22,7 @@ tags: education
     <!--**************************************************************************
     Header starts here. It contains Logo and 3 navigation links. 
     ****************************************************************************-->
-    <div id="logo"><!-- <img src="/img/logo.png" alt="sample logo"> --><!-- Company Logo text -->Logo</div>
-    <!-- <nav> <a href="#" title="Link">Nav1</a> <a href="#" title="Link">Nav2</a><a href="#" title="Link">Nav3</a> </nav>-->
+
   </header>
   <div id="content">
     <div class="notOnDesktop"> 
