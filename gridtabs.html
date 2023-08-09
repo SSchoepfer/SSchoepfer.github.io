@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabbed Content with CSS Grid</title>
+    <style>
+        /* Define the grid container */
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap: 10px;
+            min-height: 100vh;
+        }
+
+        /* Style for tab navigation */
+        .tab-nav {
+            grid-column: 1 / -1; /* Span all columns */
+            display: flex;
+            justify-content: space-around;
+            background-color: #f0f0f0;
+            padding: 10px;
+        }
+
+        /* Style for individual tab buttons */
+        .tab-button {
+            cursor: pointer;
+            padding: 10px;
+            border: none;
+            background-color: transparent;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        .tab-button:hover {
+            background-color: #ddd;
+        }
+
+        /* Style for tab content */
+        .tab-content {
+            grid-column: 1 / -1;
+            display: none;
+            padding: 20px;
+            border: 1px solid #ddd;
+            background-color: #fff;
+        }
+
+        /* Show the selected tab content */
+        .tab-content.active {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="tab-nav">
+            <button class="tab-button" onclick="showTab(0)">Tab 1</button>
+            <button class="tab-button" onclick="showTab(1)">Tab 2</button>
+            <button class="tab-button" onclick="showTab(2)">Tab 3</button>
+            <button class="tab-button" onclick="showTab(3)">Tab 4</button>
+        </div>
+        <div class="tab-content" id="tab1">
+            <h2>Tab 1 Content</h2>
+            <p>This is the content for Tab 1.</p>
+        </div>
+        <div class="tab-content" id="tab2">
+            <h2>Tab 2 Content</h2>
+            <p>This is the content for Tab 2.</p>
+        </div>
+        <div class="tab-content" id="tab3">
+            <h2>Tab 3 Content</h2>
+            <p>This is the content for Tab 3.</p>
+        </div>
+        <div class="tab-content" id="tab4">
+            <h2>Tab 4 Content</h2>
+            <p>This is the content for Tab 4.</p>
+        </div>
+    </div>
+
+    <script>
+        // Function to show the selected tab content
+        function showTab(tabIndex) {
+            const tabContents = document.querySelectorAll('.tab-content');
+            for (let i = 0; i < tabContents.length; i++) {
+                tabContents[i].classList.remove('active');
+            }
+            tabContents[tabIndex].classList.add('active');
+        }
+    </script>
+</body>
+</html>
