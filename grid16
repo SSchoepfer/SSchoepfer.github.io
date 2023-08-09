@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic 4x4 Grid Page</title>
+    <style>
+        /* Define the grid container */
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr); /* Four equal columns */
+            grid-template-rows: repeat(4, 1fr); /* Four equal rows */
+            grid-gap: 10px;
+            min-height: 100vh;
+        }
+
+        /* Style for grid items */
+        .grid-item {
+            padding: 20px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+
+        /* Media query for smaller screens */
+        @media (max-width: 768px) {
+            .grid-container {
+                grid-template-columns: 1fr; /* Single column layout */
+                grid-template-rows: auto auto repeat(4, 1fr); /* Header, sidebar, content, footer */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-item">
+            <h2>Box 1</h2>
+        </div>
+        <div class="grid-item">
+            <h2>Box 2</h2>
+        </div>
+        <div class="grid-item">
+            <h2>Box 3</h2>
+        </div>
+        <div class="grid-item">
+            <h2>Box 4</h2>
+        </div>
+        <div class="grid-item">
+            <h2>Box 5</h2>
+        </div>
+        <div class="grid-item">
+            <h2>Box 6</h2>
+        </div>
+        <div class="grid-item">
+            <h2>Box 7</h2>
+        </div>
+        <div class="grid-item">
+            <h2>Box 8</h2>
+        </div>
+        <div class="grid-item">
+            <h2>Box 9</h2>
+        </div>
+        <div class="grid-item">
+            <h2>Box 10</h2>
+        </div>
+        <div class="grid-item">
+            <h2>Box 11</h2>
+        </div>
+        <div class="grid-item">
+            <h2>Box 12</h2>
+        </div>
+        <div class="grid-item">
+            <h2>Box 13</h2>
+        </div>
+        <div class="grid-item">
+            <h2>Box 14</h2>
+        </div>
+        <div class="grid-item">
+            <h2>Box 15</h2>
+        </div>
+        <div class="grid-item">
+            <h2>Box 16</h2>
+        </div>
+    </div>
+</body>
+</html>
