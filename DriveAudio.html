@@ -6,59 +6,6 @@
          data-callback="handleCredentialResponse">
     </div>
     <div class="g_id_signin" data-type="standard"></div>
-
-        <select id="fileSelect" onchange="loadAudio()">
-        <option value="">Select an audio file</option>
-    </select>
-
-    <audio controls id="audioPlayer">
-        Your browser does not support the audio element.
-    </audio>
-
-
-
-
-            function initClient() {
-            gapi.client.init({
-                apiKey: '',
-                clientId: CLIENT_ID,
-                discoveryDocs: DISCOVERY_DOCS,
-                scope: SCOPES
-            }).then(function () {
-                gapi.auth2.getAuthInstance().signIn().then(function() {
-                    listAudioFiles();
-                });
-            });
-        }
-
-        function listAudioFiles() {
-            gapi.client.drive.files.list({
-                q: "mimeType='audio/mpeg'",
-                fields: "files(id, name)"
-            }).then(function(response) {
-                var files = response.result.files;
-                if (files && files.length > 0) {
-                    for (var i = 0; i < files.length; i++) {
-                        var option = document.createElement('option');
-                        option.value = files[i].id;
-                        option.text = files[i].name;
-                        fileSelect.appendChild(option);
-                    }
-                }
-            });
-        }
-
-        function loadAudio() {
-            var fileId = fileSelect.value;
-            if (fileId) {
-                var audioFileURL = 'https://drive.google.com/uc?export=download&id=' + fileId;
-                audioPlayer.src = audioFileURL;
-                audioPlayer.load();
-                audioPlayer.play();
-            } else {
-                audioPlayer.src = '';
-            }
-        }
   </body>
 </html>
 
