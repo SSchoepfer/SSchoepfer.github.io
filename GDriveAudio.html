@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Simple Audio Player</title>
+    <title>Audio Player</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -17,10 +17,52 @@
 <body>
     <h1>Audio Player</h1>
 
-    <audio controls>
-        <source src="http://docs.google.com/uc?export=open&id=1fj0Aa6GqtXindhsqts-t3zV_PLEmvdtX" type="audio/mp3">
+    <label for="audioSelect">Select an audio file:</label>
+    <select id="audioSelect">
+        <option value="1fj0Aa6GqtXindhsqts-t3zV_PLEmvdtX">Audio 1</option>
+        <option value="ANOTHER_FILE_ID">Audio 2</option>
+		
+		<option value="1fj0Aa6GqtXindhsqts-t3zV_PLEmvdtX">12 - & The Wailers Rebel Music (3 Oclock Roadblock).mp3</option>
+<option value="1d-QpR_PGnWSI1TWoQVFFZHMloQoORTCM">11 - Crazy Baldhead.mp3</option>
+<option value="1-o_75Du0EGdRrm2NXjCWbkTmU12iZThM">05 - Roots.mp3</option>
+<option value="10DQg7JYvaErNPR7BTFFg_76Q2XnA_YEJ">09 - All In One.mp3</option>
+<option value="11lPth7pNdC-TPx9g1yskXwT7CWUG3OaS">01 - Get Up, Stand Up.mp3</option>
+<option value="1Ngugc-Albese06VxDTEaFiW82K29r1Ub">08 - Ride Natty Ride.mp3</option>
+<option value="1QPq5umpwxAXrVmAVckgEfQBaa-TORoh2">03 - Slave Driver.mp3</option>
+<option value="1YQmfwQ6pjegwC-x7b8rEsnPBp3qwINUd">06 - &The Wailers So Much Trouble In The World.mp3</option>
+<option value="1ZgMB7MjNGqshs3PGsw7ms0WLyo9sipgw">07 - Them Belly Full.mp3</option>
+<option value="1c9sxeijkJQAuyHPK7eNWnj_nkDdh0CBb">10 - Don't Rock My Boat.mp3</option>
+<option value="1iRLkm8OcWwizvf6aO2iuzCM8VzGfuPTq">02 - War.mp3</option>
+<option value="1n6yXW-TNIJsfnd_3GD8yuMpG6aF4a78G">04 - Rat Race.mp3</option>
+
+		
+		
+		
+		
+        <!-- Add more options for additional files -->
+    </select>
+
+    <br><br>
+
+    <audio id="audioPlayer" controls>
+        <source id="audioSource" type="audio/mp3">
         <p>Your browser does not support HTML5 audio :(</p>
     </audio>
+
+    <script>
+        const audioSelect = document.getElementById("audioSelect");
+        const audioPlayer = document.getElementById("audioPlayer");
+        const audioSource = document.getElementById("audioSource");
+
+        audioSelect.addEventListener("change", function () {
+            const selectedFileId = audioSelect.value;
+            const audioUrl = `http://docs.google.com/uc?export=open&id=${selectedFileId}`;
+            audioSource.src = audioUrl;
+            audioPlayer.load();
+        });
+
+        // Trigger the change event to initialize the audio player
+        audioSelect.dispatchEvent(new Event("change"));
+    </script>
 </body>
 </html>
-
