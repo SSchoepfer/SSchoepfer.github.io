@@ -5,16 +5,21 @@ title: Now
 <!doctype html>
 <html>
 <head>
-<!-- CSS -->
-<link rel="stylesheet" href="{{ site.baseurl }}/css/owl.carousel.css" />
-<link rel="stylesheet" href="{{ site.baseurl }}/css/bootstrap.min.css" />
-<link rel="stylesheet" href="{{ site.baseurl }}/css/font-awesome.min.css" />
-<link rel="stylesheet" href="{{ site.baseurl }}/css/airspace.css" />
-<link rel="stylesheet" href="{{ site.baseurl }}/css/style.css" />
-<link rel="stylesheet" href="{{ site.baseurl }}/css/ionicons.min.css" />
-<link rel="stylesheet" href="{{ site.baseurl }}/css/animate.css" />
-<link rel="stylesheet" href="{{ site.baseurl }}/css/responsive.css" />
-<link rel="stylesheet" href="{{ site.baseurl }}/css/syntax.css" />
+	
+/* CSS to center content */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ensures content is centered vertically */
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column; /* Stack content vertically on smaller screens */
+  }
+}
 
 <title>Now</title>
 </head>
