@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webamp with Butterchurn Visualizer</title>
+    <!-- Include Webamp CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/webamp/dist/webamp.css">
+</head>
+<body>
+    <div id="app"></div>
+    <!-- Include Webamp JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/webamp/dist/webamp.min.js"></script>
+    <!-- Include Butterchurn Visualizer JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/butterchurn"></script>
+    <script src="https://cdn.jsdelivr.net/npm/butterchurn-presets"></script>
+    <script src="https://cdn.jsdelivr.net/npm/butterchurn-presets/lib/butterchurnPresetPack/butterchurnPresetPack.min.js"></script>
+
+    <script>
+        // Step 2: Initialize Webamp
+        const webamp = new Webamp({
+            initialTracks: [{
+                metaData: {
+                    artist: "DJ Mike Llama",
+                    title: "Llama Whippin' Intro"
+                },
+                url: "https://cdn.jsdelivr.net/gh/captbaritone/webamp@latest/mp3/llama-2.91.mp3",
+                duration: 5.322286
+            }]
+        });
+
+        // Step 3: Set Up Butterchurn Visualizer
+        webamp.renderWhenReady(document.getElementById('app')).then(() => {
+            const butterchurn = require('butterchurn');
+            const butterchurnPresets = require('butterchurn-presets');
+            const butterchurnPresetPack = require('butterchurn-presets/lib/butterchurnPresetPack');
+
+            // Get the MediaElement from Webamp
+            const mediaElement = webamp.getMediaElement();
+
+            // Create the Butterchurn visualizer
+            const visualizer = butterchurn.createVisualizer(mediaElement, {
+                width: 800,
+                height: 600,
+                pixelRatio: window.devicePixelRatio || 1,
+            });
+
+            // Load and start the visualizer
+            const presets = butterchurnPresetPack.getPresets();
+            const presetKeys = Object.keys(presets);
+            const initialPreset = presets[presetKeys[Math.floor(Math.random() * presetKeys.length)]];
+            visualizer.loadPreset(initialPreset, 2.0);
+
+            // Append the visualizer canvas to the DOM
+            const visualizerCanvas = visualizer.getCanvas();
+            document.body.appendChild(visualizerCanvas);
+
+            // Update the visualizer size on window resize
+            window.addEventListener('resize', () => {
+                visualizer.setRendererSize(window.innerWidth, window.innerHeight);
+            });
+
+            // Start rendering the visualizer
+            const render = () => {
+                visualizer.render();
+                requestAnimationFrame(render);
+            };
+            render();
+        });
+    </script>
+</body>
+</html>
