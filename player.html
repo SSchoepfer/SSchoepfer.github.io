@@ -17,7 +17,21 @@
          * duration are required to populate the playlist.  If any of those
          * fields are omitted, Webamp will download at least part of each file
          * on initial page load in order to determine the missing information.
-         */
+         */        // Optional. An array of objects representing skins.
+        // These will appear in the "Options" menu under "Skins".
+        // Note: These URLs must be served with the correct CORs headers.
+        //
+        // These will appear in the dropdown menu under "Skins".
+        availableSkins: [
+          {
+            url: "https://archive.org/cors/winampskin_Green-Dimension-V2/Green-Dimension-V2.wsz",
+            name: "Green Dimension V2",
+          },
+          {
+            url: "https://archive.org/cors/winampskin_mac_os_x_1_5-aqua/mac_os_x_1_5-aqua.wsz",
+            name: "Mac OSX v1.5 (Aqua)",
+          },
+        ],
         initialTracks: [
           {
             metaData: {
