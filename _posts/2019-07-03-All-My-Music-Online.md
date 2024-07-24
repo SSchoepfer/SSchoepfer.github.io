@@ -19,6 +19,6 @@ tags: music
 
 
 
-[Architecture](/architecture.mp3) 
+[Architecture](/music/architecture.mp3) 
 
-<audio src="/architecture.mp3" preload="none" controls="controls"></audio>
+<audio src="/music/architecture.mp3" preload="none" controls="controls"></audio>
