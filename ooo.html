@@ -3,76 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minimalistic Penrose Tile Website</title>
+    <title>Background Image Example</title>
     <style>
         body {
             margin: 0;
-            padding: 0;
             font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-            background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="200" height="173"%3E%3Cpath fill="%23d3d3d3" d="M100 0L0 173h200L100 0zM100 0L200 173H0L100 0zm0 173l-100 58 100-58zM0 173l100 58 100-58-100 58z"/%3E%3C/svg%3E');
-            background-size: 20px 20px;
+            background-image: url('your-image-url.jpg'); /* Replace with your image URL */
+            background-size: cover;
+            background-position: center;
             background-attachment: fixed;
-            color: #333;
+            color: #fff;
         }
 
-        .container {
-            width: 90%;
+        .content {
             max-width: 800px;
-            margin: 0 auto;
+            margin: auto;
+            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
             padding: 20px;
-            background-color: white;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-            margin-top: 40px;
+            border-radius: 10px;
+            margin-top: 50px;
         }
 
-        header {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-
-        header h1 {
-            font-size: 2em;
+        h1, p {
             margin: 0;
-            color: #444;
+            padding: 0;
         }
 
-        main {
-            font-size: 1.1em;
-            line-height: 1.6;
+        h1 {
+            margin-bottom: 10px;
         }
 
-        footer {
-            text-align: center;
-            margin-top: 20px;
-            font-size: 0.9em;
-            color: #777;
-        }
-
-        @media (max-width: 600px) {
-            header h1 {
-                font-size: 1.5em;
-            }
-
-            main {
-                font-size: 1em;
-            }
+        p {
+            margin-bottom: 20px;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Minimalistic Penrose Tiles</h1>
-        </header>
-        <main>
-            <p>Welcome to our minimalistic website with a subtle Penrose tile background. This design emphasizes simplicity and elegance, providing a clean and focused space for content.</p>
-            <p>The Penrose tiles are known for their non-periodic tiling, creating a unique pattern that never repeats. We've chosen a subtle grey and white color scheme to keep the focus on the content while maintaining an interesting background.</p>
-        </main>
-        <footer>
-            &copy; 2024 Minimalistic Design. All rights reserved.
-        </footer>
+    <div class="content">
+        <h1>Welcome to My Website</h1>
+        <p>This is a simple example of a website with a background image and content placed above it.</p>
+        <p>Feel free to customize this template to suit your needs!</p>
     </div>
 </body>
 </html>
