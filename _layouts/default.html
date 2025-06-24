@@ -35,8 +35,7 @@
     table.dataframe tr:hover {
       background: #b8d1f3; 
     }
-
-      .container {
+.container {
   display: flex;
   flex-wrap: wrap;
   max-width: 1100px;
@@ -44,34 +43,37 @@
   padding: 1rem;
 }
 
-.main {
-  flex: 1 1 700px;
-  max-width: 700px;
-  padding-right: 2rem;
-  box-sizing: border-box;
-}
-
 .sidebar {
   flex: 1 1 250px;
   max-width: 250px;
   box-sizing: border-box;
-  padding-left: 1rem;
-  border-left: 1px solid #eee;
+  padding-right: 1.5rem;
+  border-right: 1px solid #eee;
 }
 
+.main {
+  flex: 1 1 700px;
+  max-width: 700px;
+  box-sizing: border-box;
+  padding-left: 2rem;
+}
+
+/* Mobile: stack vertically */
 @media (max-width: 768px) {
   .container {
     flex-direction: column;
   }
 
-  .main, .sidebar {
-    max-width: 100%;
-    padding: 0;
-    border-left: none;
+  .sidebar {
+    border-right: none;
+    border-bottom: 1px solid #eee;
+    padding-right: 0;
+    padding-bottom: 1rem;
+    margin-bottom: 1.5rem;
   }
 
-  .sidebar {
-    margin-top: 2rem;
+  .main {
+    padding-left: 0;
   }
 }
 
