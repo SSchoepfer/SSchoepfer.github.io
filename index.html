@@ -14,50 +14,42 @@ permalink: /
     body {
       font-family: Georgia, serif;
       max-width: 650px;
-      margin: 0 auto;
-      padding: 2rem;
+      margin: 2rem auto;
+      padding: 0 1rem;
       line-height: 1.6;
       color: #111;
-      background: #fff;
+      background-color: #fff;
     }
+
+    h1, h2, h3 {
+      font-weight: normal;
+      margin-top: 2rem;
+      margin-bottom: 0.5rem;
+    }
+
     a {
       color: #0366d6;
       text-decoration: none;
     }
+
     a:hover {
       text-decoration: underline;
     }
-    h1, h2, h3 {
-      margin-top: 2rem;
+
+    small {
+      color: #555;
     }
-    hr {
-      margin: 3rem 0;
-      border: none;
-      border-top: 1px solid #ddd;
-    }
+
     footer {
       margin-top: 4rem;
+      padding-top: 2rem;
+      border-top: 1px solid #eee;
       font-size: 0.9em;
-      color: #555;
       text-align: center;
+      color: #777;
     }
   </style>
 </head>
 <body>
 
-  <h1>{{ site.title }}</h1>
-  <p>Welcome to my blog. I write about ideas, stories, reviews, and experiments.</p>
-  <hr />
-
-  {% for post in site.posts %}
-    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-    <p><small>{{ post.date | date: "%B %e, %Y" }}</small></p>
-    <p>{{ post.excerpt }}</p>
-  {% endfor %}
-
-  <footer>
-    <p>© {{ site.time | date: '%Y' }} {{ site.author.name }} · <a href="https://github.com/{{ site.github_username }}">GitHub</a></p>
-  </footer>
-
-</body>
-</html>
+  <h1>Stephen Schoepfer</h1>
