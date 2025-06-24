@@ -101,12 +101,23 @@
 <body>
   {% include header.html %}
 
-  <div class="container" id="main-container">
-    {{ content }}
-  </div>
+  {% if page.url == "/" %}
+    <div class="container" id="main-container">
+      {{ content }}
+    </div>
+  {% else %}
+    <main class="post-wrapper">
+      {{ content }}
+    </main>
+  {% endif %}
 
   {% unless page.no_footer %}
     {% include footer.html %}
   {% endunless %}
 </body>
 </html>
+
+
+
+
+
