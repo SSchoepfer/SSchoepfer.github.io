@@ -80,4 +80,80 @@ permalink: /
 
     a {
       color: #0366d6;
-      text-decorati
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    h1, h2, h3 {
+      font-weight: normal;
+      margin-top: 2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    small {
+      color: #555;
+    }
+
+    footer {
+      margin-top: 4rem;
+      padding-top: 2rem;
+      border-top: 1px solid #eee;
+      font-size: 0.9em;
+      text-align: center;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="/">Home</a>
+    <a href="/blog/">Blog</a>
+    <a href="/archive/">Archive</a>
+    <a href="/now/">Now</a>
+    <a href="/contact/">Contact</a>
+    <a href="/sale/">Sale</a>
+  </nav>
+
+  <div class="container">
+
+    <main class="main">
+      <h1>Stephen Schoepfer</h1>
+      <p>Writing about data, design, sound, creativity, and the strange joy of figuring things out.</p>
+      <hr />
+
+      {% for post in site.posts limit:10 %}
+        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        <p><small>{{ post.date | date: "%B %-d, %Y" }}</small></p>
+        {% if post.excerpt %}
+          <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+        {% endif %}
+      {% endfor %}
+
+      <footer>
+        © {{ site.time | date: "%Y" }} Stephen G. Schoepfer · <a href="https://github.com/SSchoepfer">GitHub</a>
+      </footer>
+    </main>
+
+    <aside class="sidebar">
+      <h4>Pinned</h4>
+      <ul>
+        <li><a href="/your-pinned-post-url/">Panther Soundtrack Review</a></li>
+        <li><a href="/another-great-post/">My Favorite Gear of the Year</a></li>
+      </ul>
+
+      <h4>Categories</h4>
+      <ul>
+        {% for category in site.categories %}
+          <li><a href="/categories/{{ category[0] }}">{{ category[0] }} ({{ category[1].size }})</a></li>
+        {% endfor %}
+      </ul>
+    </aside>
+
+  </div>
+
+</body>
+</html>
