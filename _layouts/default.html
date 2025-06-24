@@ -47,6 +47,12 @@
     {{ content }}
 
     {% include footer.html %}
+    {% unless page.no_footer %}
+<footer>
+  <!-- Your existing footer content here -->
+  <p>© {{ site.time | date: "%Y" }} Stephen G. Schoepfer · <a href="https://github.com/SSchoepfer">GitHub</a></p>
+</footer>
+{% endunless %}
 
     </body>
 </html>
