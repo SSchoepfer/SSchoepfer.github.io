@@ -6,7 +6,7 @@ permalink: /
 
 <div class="container">
 
-  <aside class="sidebar">
+  <aside class="sidebar" role="complementary" aria-label="Sidebar">
     <h4>Pinned</h4>
     <ul>
       <li><a href="/your-pinned-post-url/">Panther Soundtrack Review</a></li>
@@ -21,30 +21,32 @@ permalink: /
     </ul>
   </aside>
 
-  <main class="main">
+  <main class="main" role="main">
     <h1>Stephen Schoepfer</h1>
     <p>Writing about data, design, sound, creativity.</p>
     <hr />
 
-<div id="post-feed">
-  {% for post in site.posts %}
-    <article class="post-item{% if forloop.index > 10 %} hidden{% endif %}">
-      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-      <p><small>{{ post.date | date: "%B %-d, %Y" }}</small></p>
-      {% if post.excerpt %}
-        <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
-      {% endif %}
-    </article>
-  {% endfor %}
-</div>
+    <div id="post-feed">
+      {% for post in site.posts %}
+        <article class="post-item{% if forloop.index > 10 %} hidden{% endif %}">
+          <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+          <p><small>{{ post.date | date: "%B %-d, %Y" }}</small></p>
+          {% if post.excerpt %}
+            <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+          {% endif %}
+        </article>
+      {% endfor %}
+    </div>
 
-<!-- <button id="load-more">Load More</button> --> 
-    
+    <button id="load-more">Load More</button>
   </main>
+
+</div>
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-    const posts = document.querySelectorAll('.post-item.hidden');
+    const posts = Array.from(document.querySelectorAll('.post-item.hidden'));
+    const loadMoreBtn = document.getElementById('load-more');
     let index = 0;
     const batch = 10;
     let loading = false;
@@ -62,27 +64,54 @@ permalink: /
 
       loading = false;
 
-      // Optionally remove scroll listener if all posts loaded
-      if (index >= posts.length) {
+      if (index >= posts.length && loadMoreBtn) {
+        loadMoreBtn.style.display = 'none';
         window.removeEventListener('scroll', onScroll);
       }
     }
 
     function onScroll() {
-      // When near bottom of page (500px from bottom)
       if ((window.innerHeight + window.scrollY) >= (document.body.offsetHeight - 500)) {
         loadMore();
       }
     }
 
-    // Show initial batch on load
-    loadMore();
-
-    // Listen for scroll events
+    // Optional: enable this for infinite scroll
     window.addEventListener('scroll', onScroll);
+
+    // Load more button fallback
+    if (loadMoreBtn) {
+      loadMoreBtn.addEventListener('click', loadMore);
+    }
+
+    // Load initial batch
+    loadMore();
   });
 </script>
 
-</div>
+<style>
+  .hidden {
+    display: none;
+  }
 
+  /* Optional fade-in animation */
+  .post-item {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
 
+  .post-item:not(.hidden) {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  #load-more {
+    margin: 2rem 0;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    background: white;
+  }
+</style>
