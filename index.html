@@ -1,219 +1,63 @@
 ---
-layout: page
+layout: default
 title: Stephen Schoepfer
 permalink: /
 ---
-<style>
-.responsive {
-  width: 100%;
-  max-width: 400px;
-  height: auto;
-}
-</style>
 
-<!-- Slider Start -->
-<section id="slider">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-10 col-md-offset-2">
-        <div class="block">
-          <h1 class="animated fadeInUp">Stephen G. Schoepfer<br> </h1>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- Wrapper Start -->
-<section id="intro">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-7 col-sm-12">
-        <div class="block">
-          <div class="section-title">
-		  <a name="About"></a>
-            <h3>About Me</h3>
-            <p>Data Manager, Staten Island NYC DOE Borough Office. 
-		    </p>
-		
-		</ul>  
-	         <p style="text-align: center;">{% include archive2.html %}</p>
-	      
-	   	{% for category in site.categories %}
-            <h1>{{ category[0] }}</h3>
-            <ul>
-          {% for post in category[1] %}
-          <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-          {% endfor %}
-          </ul>
-{% endfor %}
-		
-	      <p> This site is hosted on <a href="https://github.com/SSchoepfer/SSchoepfer.github.io" target="_blank" rel="external" hreflang="en" type="text/html"> Github </a> </p>
-	      </div>
-      </div> <!-- .col-md-7 close -->
-      <div class="col-md-5 col-sm-12">
-        <div class="block">
-        <!-- <img src="img/SS_Face_Logo.png" alt="MyFace" max-width= 25% height= auto> --> 
-	<!-- <img src="/img/myLogoFace.jpg" alt="Me" class="img-responsive" /> -->
-        </div>
-      </div><!-- .col-md-5 close -->
-    </div>
-  </div>
-</section>
-<!--
-<section id="feature">
-<div class="container">
-  <div class="row">
-    <div class="col-md-6 col-md-offset-6">
-      <h2>Ideas</h2>
-	<h1 class="animated infinite bounce delay-2s">Idea</h1>
-	<h1 class="animated infinite bounceInLeft delay-5s">Idea</h1>
-	  <h1 class="animated infinite swing delay-2s">Idea</h1> 
-      <p>Item 1 </p>
-      <p>Item 2 </p>
-      <p>Item 3 </p>
--->
-      <!-- <a href="#" class="btn btn-view-works">View</a> -->       	
-     <!--   <a href="https://sschoepfer.github.io/blog/" class="btn btn-view-works">View</a> -->
-<!--
-    </div>
-  </div>
-</div>
-</section>
--->
-<!-- Service Start -->
-<!--
-<section id="service">
-  <div class="container">
-    <div class="row">
-      <div class="section-title">
-        <h2>Service</h2>
-        <p>Audio Services</p>
-      </div>
-    </div>
-    <div class="row ">
-      <div class="col-sm-6 col-md-3">
-        <div class="service-item">
-          <i class="icon ion-coffee"></i>
-          <h4>Branding</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </p>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-3">
-        <div class="service-item">
-          <i class="ion-compass"></i>
-          <h4>Web Design</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </p>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-3">
-        <div class="service-item">
-          <i class="ion-image"></i>
-          <h4>App Design</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </p>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-3">
-        <div class="service-item">
-          <i class="ion-bug"></i>
-          <h4>Start Up</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </p>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-3">
-        <div class="service-item">
-          <i class="ion-headphone"></i>
-          <h4>Logo Design</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </p>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-3">
-        <div class="service-item">
-          <i class="ion-leaf"></i>
-          <h4>Development</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </p>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-3">
-        <div class="service-item">
-          <i class="ion-planet"></i>
-          <h4>Brand Identity</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </p>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-3">
-        <div class="service-item">
-          <i class="ion-earth"></i>
-          <h4>Brand Identity</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- Call to action Start -->
-<!--
-<section id="call-to-action">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="block">
-          <h2>We design delightful digital experiences.</h2>
-          <p>Read more about what we do and our philosophy of design. Judge for yourself The work and results we’ve achieved for other clients, and meet our highly experienced Team who just love to design.</p>
-          <a class="btn btn-default btn-call-to-action" href="#" >Tell Us Your Story</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
--->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ site.title }}</title>
+  <style>
+    body {
+      font-family: Georgia, serif;
+      max-width: 650px;
+      margin: 0 auto;
+      padding: 2rem;
+      line-height: 1.6;
+      color: #111;
+      background: #fff;
+    }
+    a {
+      color: #0366d6;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    h1, h2, h3 {
+      margin-top: 2rem;
+    }
+    hr {
+      margin: 3rem 0;
+      border: none;
+      border-top: 1px solid #ddd;
+    }
+    footer {
+      margin-top: 4rem;
+      font-size: 0.9em;
+      color: #555;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
 
-<!-- Content Start -->
-<!--
-<section id="testimonial">
-  <div class="container">
-    <div class="row">
-      <div class="section-title text-center">
-        <h2>Fun Facts About Us</h2>
-        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-6">
-        {% if site.data.funfacts.size > 0 %}
-        <div class="block">
-          {% for ff in site.data.funfacts %}
-          <ul class="counter-box clearfix">
-            <li>
-              <div class="block">
-                <i class="{{ ff.icon }}"></i>
-                <h4 class="counter">{{ ff.counter }}</h4>
-                <span>{{ ff.text }}</span>
-              </div>
-            </li>
-            {% endfor %}
-          </ul>
-        </div>
-        {% endif %}
-      </div>
-      <div class="col-md-6">
-        {% if site.data.testimonials.size > 0 %}
-        <div class="testimonial-carousel">
-          <div id="testimonial-slider" class="owl-carousel">
-            {% for tm in site.data.testimonials %}
-            <div>
-                <img src="img/cotation.png" alt="IMG">
-                <p>{{ tm.testimonial }}</p>
-                <div class="user">
-                  <img src="{{ tm.image }}" alt="Pepole">
-                  <p><span>{{ tm.name }}</span> {{ tm.title }}</p>
-                </div>
-            </div>
-            {% endfor %}
-          </div>
-        </div>
-        {% endif %}
-      </div>
-    </div>
-  </div>
-</section>
--->
+  <h1>{{ site.title }}</h1>
+  <p>Welcome to my blog. I write about ideas, stories, reviews, and experiments.</p>
+  <hr />
+
+  {% for post in site.posts %}
+    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+    <p><small>{{ post.date | date: "%B %e, %Y" }}</small></p>
+    <p>{{ post.excerpt }}</p>
+  {% endfor %}
+
+  <footer>
+    <p>© {{ site.time | date: '%Y' }} {{ site.author.name }} · <a href="https://github.com/{{ site.github_username }}">GitHub</a></p>
+  </footer>
+
+</body>
+</html>
