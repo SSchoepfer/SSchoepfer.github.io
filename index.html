@@ -39,8 +39,30 @@ permalink: /
 </div>
 
 <button id="load-more">Load More</button>
+    
   </main>
 
-  
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const posts = document.querySelectorAll('.post-item.hidden');
+    const button = document.getElementById('load-more');
+    let index = 0;
+    const batch = 10;
+
+    button.addEventListener('click', function () {
+      let shown = 0;
+      while (index < posts.length && shown < batch) {
+        posts[index].classList.remove('hidden');
+        index++;
+        shown++;
+      }
+      if (index >= posts.length) {
+        button.style.display = 'none';
+      }
+    });
+  });
+</script>
 
 </div>
+
+
