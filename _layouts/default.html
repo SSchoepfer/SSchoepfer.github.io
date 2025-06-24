@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  
+
+  <title>{{ page.title | default: site.title }}</title>
+
   <!-- Google Ads -->
   <script data-ad-client="ca-pub-5692761108791913" async
     src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -12,12 +13,10 @@
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@SteveSchoepfer" />
 
-  <title>{{ page.title | default: site.title }}</title>
-
   {% include head.html %}
 
   <style>
-    /* Container for page content and optional sidebar */
+    /* Layout styles */
     .container {
       display: flex;
       flex-wrap: wrap;
@@ -26,7 +25,6 @@
       padding: 1rem;
     }
 
-    /* Sticky sidebar styles, to be used by pages that implement a sidebar */
     .sidebar {
       flex: 1 1 250px;
       max-width: 250px;
@@ -47,7 +45,7 @@
       padding-left: 2rem;
     }
 
-    /* Responsive stacking on smaller screens */
+    /* Mobile layout */
     @media (max-width: 768px) {
       .container {
         flex-direction: column;
@@ -71,20 +69,44 @@
         padding-left: 0;
       }
     }
+
+    /* Post fade-in animation */
+    .post-item {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.3s ease, transform 0.3s ease;
+    }
+
+    .post-item:not(.hidden) {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* Load more button styles */
+    #load-more {
+      margin: 2rem 0;
+      padding: 0.75rem 1.5rem;
+      font-size: 1rem;
+      cursor: pointer;
+      border: 1px solid #ccc;
+      background: white;
+    }
+
+    .hidden {
+      display: none;
+    }
   </style>
 </head>
 
 <body>
   {% include header.html %}
 
-  <div class="container">
-    <!-- This is where page content and sidebar go -->
+  <div class="container" id="main-container">
     {{ content }}
   </div>
 
   {% unless page.no_footer %}
-  {% include footer.html %}
+    {% include footer.html %}
   {% endunless %}
 </body>
-
 </html>
