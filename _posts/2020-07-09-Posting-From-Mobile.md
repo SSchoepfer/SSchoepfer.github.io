@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Posting From Mobile
-categories: Misc
+categories: misc
 author: Steve
 published: true
 tags: blog
