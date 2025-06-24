@@ -38,28 +38,48 @@ permalink: /
   {% endfor %}
 </div>
 
-<button id="load-more">Load More</button>
+<!-- <button id="load-more">Load More</button> --> 
     
   </main>
 
-  <script>
+<script>
   document.addEventListener("DOMContentLoaded", function () {
     const posts = document.querySelectorAll('.post-item.hidden');
-    const button = document.getElementById('load-more');
     let index = 0;
     const batch = 10;
+    let loading = false;
 
-    button.addEventListener('click', function () {
+    function loadMore() {
+      if (loading) return;
+      loading = true;
+
       let shown = 0;
       while (index < posts.length && shown < batch) {
         posts[index].classList.remove('hidden');
         index++;
         shown++;
       }
+
+      loading = false;
+
+      // Optionally remove scroll listener if all posts loaded
       if (index >= posts.length) {
-        button.style.display = 'none';
+        window.removeEventListener('scroll', onScroll);
       }
-    });
+    }
+
+    function onScroll() {
+      // When near bottom of page (500px from bottom)
+      if ((window.innerHeight + window.scrollY) >= (document.body.offsetHeight - 500)) {
+        loadMore();
+      }
+    }
+
+    // Show initial batch on load
+    loadMore();
+
+    // Listen for scroll events
+    window.addEventListener('scroll', onScroll);
   });
 </script>
 
