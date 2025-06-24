@@ -54,6 +54,13 @@
   top: 2rem; /* Adjust spacing from the top of the viewport */
   align-self: flex-start; /* Ensure it doesn’t stretch vertically */
   height: fit-content;
+
+/* Disable sticky on small screens */
+@media (max-width: 768px) {
+  .sidebar {
+    position: static;
+  }
+}
 }
 
 .main {
