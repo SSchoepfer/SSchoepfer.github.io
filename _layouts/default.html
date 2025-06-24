@@ -41,12 +41,15 @@
 
   <body>
 
+  {% include header.html %}
 
-    {% include header.html %}
-
+  <main>
     {{ content }}
+  </main>
 
+  {% unless page.no_footer %}
     {% include footer.html %}
+  {% endunless %}
     
     </body>
 </html>
