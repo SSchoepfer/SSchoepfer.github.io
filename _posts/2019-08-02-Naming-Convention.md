@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Naming Convention
-categories: Misc
+categories: misc
 author: Steve
 published: true
 permalink: /namingconvention/
