@@ -13,18 +13,33 @@ permalink: /
   <style>
     body {
       font-family: Georgia, serif;
-      max-width: 650px;
-      margin: 2rem auto;
-      padding: 0 1rem;
-      line-height: 1.6;
       color: #111;
       background-color: #fff;
+      margin: 0;
+      padding: 2rem;
+      display: flex;
+      justify-content: center;
     }
 
-    h1, h2, h3 {
-      font-weight: normal;
-      margin-top: 2rem;
-      margin-bottom: 0.5rem;
+    .container {
+      display: flex;
+      max-width: 1100px;
+      width: 100%;
+    }
+
+    .main {
+      flex: 3;
+      max-width: 700px;
+      margin-right: 2rem;
+    }
+
+    .sidebar {
+      flex: 1;
+      max-width: 300px;
+      font-size: 0.95em;
+      color: #444;
+      border-left: 1px solid #eee;
+      padding-left: 1rem;
     }
 
     a {
@@ -34,6 +49,12 @@ permalink: /
 
     a:hover {
       text-decoration: underline;
+    }
+
+    h1, h2, h3 {
+      font-weight: normal;
+      margin-top: 2rem;
+      margin-bottom: 0.5rem;
     }
 
     small {
@@ -48,24 +69,36 @@ permalink: /
       text-align: center;
       color: #777;
     }
+
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+
+    .sidebar h4 {
+      margin-top: 2rem;
+      margin-bottom: 0.5rem;
+      color: #222;
+    }
   </style>
 </head>
 <body>
 
-  <h1>Stephen Schoepfer</h1>
-  <p>Writing about data, design, sound, creativity.</p>
+<div class="container">
 
-  <hr>
+  <div class="main">
+    <h1>Stephen Schoepfer</h1>
+    <p>Writing about data, design, sound, creativity.</p>
+    <hr>
 
-{% for post in site.posts limit:10 %}
-  <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-  <p><small>{{ post.date | date: "%B %-d, %Y" }}</small></p>
-  <p>{{ post.excerpt }}</p>
-{% endfor %}
+    {% for post in site.posts limit:10 %}
+      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      <p><small>{{ post.date | date: "%B %-d, %Y" }}</small></p>
+      {% if post.excerpt %}
+        <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+      {% endif %}
+    {% endfor %}
 
-  <footer>
-    © {{ site.time | date: "%Y" }} Stephen G. Schoepfer · <a href="https://github.com/SSchoepfer">GitHub</a>
-  </footer>
-
-</body>
-</html>
+    <footer>
+      © {{ site.time | date: "%Y" }} Stephen G. Schoepfer · <a href="https://github.com/SSchoepfer">GitHub</a>
+    </f
