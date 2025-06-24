@@ -129,20 +129,21 @@ permalink: /
       </footer>
     </main>
 
-    <aside class="sidebar">
-      <h4>Pinned</h4>
-      <ul>
-        <li><a href="/your-pinned-post-url/">Panther Soundtrack Review</a></li>
-        <li><a href="/another-great-post/">My Favorite Gear of the Year</a></li>
-      </ul>
+   <aside class="sidebar">
+  <h4>Pinned</h4>
+  <ul>
+    <li><a href="/your-pinned-post-url/">Panther Soundtrack Review</a></li>
+    <li><a href="/another-great-post/">My Favorite Gear of the Year</a></li>
+  </ul>
 
-      <h4>Categories</h4>
-      <ul>
-        {% for category in site.categories %}
-          <li><a href="/categories/{{ category[0] }}">{{ category[0] }} ({{ category[1].size }})</a></li>
-        {% endfor %}
-      </ul>
-    </aside>
+  <h4>Categories</h4>
+  <ul>
+    {% for category in site.categories %}
+      <li><a href="/tag/{{ category[0] | downcase }}">{{ category[0] }} ({{ category[1].size }})</a></li>
+    {% endfor %}
+  </ul>
+</aside>
+
 
   </div>
 
