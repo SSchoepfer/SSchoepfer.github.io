@@ -1,100 +1,86 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-  </head>
+---
+layout: default
+title: Music Player
+permalink: /player/
+no_sidebar: true
+---
 
-  <body style="background-image: url('img/GAR.png'); background-size: auto; background-repeat: no-repeat; background-position: center;">
-    <div id="app" style="height: 100vh">
-      <!-- Webamp will attempt to center itself within this div -->
-    </div>
-    <script src="https://unpkg.com/webamp@1.5.0/built/webamp.bundle.min.js"></script>
-    <script src="https://unpkg.com/butterchurn@2.6.7/lib/butterchurn.min.js"></script>
-    <script src="https://unpkg.com/butterchurn-presets@2.4.7/lib/butterchurnPresets.min.js"></script>
-    <script>
-      const Webamp = window.Webamp;
-      const webamp = new Webamp({
-        /**
-         * Here we list three tracks. Note that the `metaData` fields and
-         * duration are required to populate the playlist.  If any of those
-         * fields are omitted, Webamp will download at least part of each file
-         * on initial page load in order to determine the missing information.
-         */        // Optional. An array of objects representing skins.
-        // These will appear in the "Options" menu under "Skins".
-        // Note: These URLs must be served with the correct CORs headers.
-        //
-        // These will appear in the dropdown menu under "Skins".
-        availableSkins: [
-          {
-            url: "https://archive.org/cors/winampskin_Green-Dimension-V2/Green-Dimension-V2.wsz",
-            name: "Green Dimension V2",
-          },
-          {
-            url: "https://archive.org/cors/winampskin_mac_os_x_1_5-aqua/mac_os_x_1_5-aqua.wsz",
-            name: "Mac OSX v1.5 (Aqua)",
-          },
-        ],
-        initialTracks: [
-          {
-            metaData: {
-              artist: "DJ Mike Llama",
-              title: "Llama Whippin' Intro",
-            },
-            // NOTE: Your audio file must be served from the same domain as your HTML
-            // file, or served with permissive CORS HTTP headers:
-            // https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
-            url: "https://cdn.jsdelivr.net/gh/captbaritone/webamp@43434d82cfe0e37286dbbe0666072dc3190a83bc/mp3/llama-2.91.mp3",
-            duration: 5.32,
-          },
-          {
-            metaData: {
-              title: "Track27",
-              artist: "DLZ Orchestra",
-            },
-            // NOTE: Your audio file must be served from the same domain as your HTML
-            // file, or served with permissive CORS HTTP headers:
-            // https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
-            url: "/music/Track27.mp3",
-            duration: 185.00,
-          },
-          {
-            metaData: {
-              title: "Arc",
-              artist: "Steve",
-            },
-            url: "/music/architecture.mp3",
-            duration: 36.00,
-          },
-                    {
-            metaData: {
-              title: "9PepCher",
-              artist: "DLZ Archives",
-            },
-            url: "https://drive.google.com/file/d/0B8WJl-B2mR_VYTVoTkIxbHFnUDA/view?usp=sharing&resourcekey=0-HZsPCxxSvwYM_IwHiEJP2Q",
-            duration: 360.00,
-          },
-        ],        
-        __butterchurnOptions: {
-          importButterchurn: () => Promise.resolve(window.butterchurn),
-          getPresets: () => {
-            const presets = window.butterchurnPresets.getPresets();
-            return Object.keys(presets).map((name) => {
-              return {
-                name,
-                butterchurnPresetObject: presets[name],
-              };
-            });
-          },
-          butterchurnOpen: true,
-        },
-        __initialWindowLayout: {
-          main: { position: { x: 0, y: 0 } },
-          equalizer: { position: { x: 0, y: 116 } },
-          playlist: { position: { x: 0, y: 232 }, size: [0, 4] },
-          milkdrop: { position: { x: 275, y: 0 }, size: [7, 12] },
-        },
-      });
-      webamp.renderWhenReady(document.getElementById("app"));
-    </script>
-  </body>
-</html>
+<style>
+  body {
+    background-image: url('/img/GAR.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+  #app {
+    height: 100vh;
+  }
+
+  @media (max-width: 768px) {
+    #app {
+      transform: scale(0.85);
+      transform-origin: top center;
+      overflow-x: auto;
+    }
+  }
+</style>
+
+<div id="app"></div>
+
+<script src="https://unpkg.com/webamp@1.5.0/built/webamp.bundle.min.js"></script>
+<script src="https://unpkg.com/butterchurn@2.6.7/lib/butterchurn.min.js"></script>
+<script src="https://unpkg.com/butterchurn-presets@2.4.7/lib/butterchurnPresets.min.js"></script>
+
+<script>
+  const Webamp = window.Webamp;
+  const webamp = new Webamp({
+    availableSkins: [
+      {
+        url: "https://archive.org/cors/winampskin_Green-Dimension-V2/Green-Dimension-V2.wsz",
+        name: "Green Dimension V2",
+      },
+      {
+        url: "https://archive.org/cors/winampskin_mac_os_x_1_5-aqua/mac_os_x_1_5-aqua.wsz",
+        name: "Mac OSX v1.5 (Aqua)",
+      },
+    ],
+    initialTracks: [
+      {
+        metaData: { artist: "DJ Mike Llama", title: "Llama Whippin' Intro" },
+        url: "https://cdn.jsdelivr.net/gh/captbaritone/webamp@43434d82cfe0e37286dbbe0666072dc3190a83bc/mp3/llama-2.91.mp3",
+        duration: 5.32,
+      },
+      {
+        metaData: { title: "Track27", artist: "DLZ Orchestra" },
+        url: "/music/Track27.mp3",
+        duration: 185.00,
+      },
+      {
+        metaData: { title: "Arc", artist: "Steve" },
+        url: "/music/architecture.mp3",
+        duration: 36.00,
+      }
+    ],
+    __butterchurnOptions: {
+      importButterchurn: () => Promise.resolve(window.butterchurn),
+      getPresets: () => {
+        const presets = window.butterchurnPresets.getPresets();
+        return Object.keys(presets).map(name => ({
+          name,
+          butterchurnPresetObject: presets[name]
+        }));
+      },
+      butterchurnOpen: true,
+    },
+    __initialWindowLayout: {
+      main: { position: { x: 0, y: 0 } },
+      equalizer: { position: { x: 0, y: 116 } },
+      playlist: { position: { x: 0, y: 232 }, size: [0, 4] },
+      milkdrop: { position: { x: 275, y: 0 }, size: [7, 12] },
+    }
+  });
+
+  webamp.renderWhenReady(document.getElementById("app"));
+</script>
