@@ -7,27 +7,43 @@ no_sidebar: true
 
 <style>
   body {
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+  }
+
+  .background-art {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     background-image: url('/img/GAR.png');
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-color: #000;
-    background-attachment: fixed;
+    z-index: -1;
+    opacity: 0.25; /* Optional: makes the player stand out more */
   }
 
   #app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
+    z-index: 1;
+    position: relative;
   }
 
   @media (max-width: 768px) {
     #app {
       transform: scale(0.85);
       transform-origin: top center;
-      overflow-x: auto;
     }
   }
 </style>
 
+<div class="background-art"></div>
 <div id="app"></div>
 
 <script src="https://unpkg.com/webamp@1.5.0/built/webamp.bundle.min.js"></script>
