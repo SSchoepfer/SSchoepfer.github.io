@@ -10,6 +10,8 @@ no_sidebar: true
     background-color: #000;
     margin: 0;
     padding: 0;
+    color: #fff;
+    font-family: Georgia, serif;
   }
 
   .background-art {
@@ -23,28 +25,74 @@ no_sidebar: true
     background-repeat: no-repeat;
     background-position: center;
     z-index: -1;
-    opacity: 0.25; /* Optional: makes the player stand out more */
+    opacity: 0.2;
+  }
+
+  .player-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    padding-top: 3rem;
+    z-index: 1;
+    position: relative;
+    text-align: center;
+  }
+
+  .description-box {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    max-width: 600px;
+    backdrop-filter: blur(4px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  }
+
+  .description-box h2 {
+    margin: 0;
+    font-size: 1.6rem;
+    color: #fff;
+  }
+
+  .description-box p {
+    font-size: 1rem;
+    color: #ccc;
+    margin-top: 0.5rem;
   }
 
   #app {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    z-index: 1;
-    position: relative;
+    z-index: 2;
   }
 
   @media (max-width: 768px) {
+    .player-container {
+      padding-top: 2rem;
+    }
+
     #app {
       transform: scale(0.85);
       transform-origin: top center;
+    }
+
+    .description-box {
+      margin: 0 1rem 2rem;
+      padding: 1rem;
     }
   }
 </style>
 
 <div class="background-art"></div>
-<div id="app"></div>
+
+<div class="player-container">
+  <div class="description-box">
+    <h2>Now Playing</h2>
+    <p>A rotating selection of personal recordings, archived sketches, and sonic experiments.</p>
+  </div>
+
+  <div id="app"></div>
+</div>
 
 <script src="https://unpkg.com/webamp@1.5.0/built/webamp.bundle.min.js"></script>
 <script src="https://unpkg.com/butterchurn@2.6.7/lib/butterchurn.min.js"></script>
