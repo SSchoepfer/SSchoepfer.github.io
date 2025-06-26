@@ -5,7 +5,7 @@ categories: misc
 author: Steve
 published: true
 permalink: /namingconvention/
-tags: personal
+tags: misc
 ---
 Stephen G. Schoepfer 
 
