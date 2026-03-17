@@ -61,18 +61,26 @@ no_sidebar: true
         name: "Mac OSX v1.5 (Aqua)",
       },
     ],
-    initialTracks: [
-      {
-        metaData: { title: "Track27", artist: "DLZ Orchestra" },
-        url: "/music/Track27.mp3",
-        duration: 185.00,
-      },
-      {
-        metaData: { title: "Arc", artist: "Steve" },
-        url: "/music/architecture.mp3",
-        duration: 36.00,
-      }
-    ],
+initialTracks: [
+  {
+    metaData: { 
+      title: "Track27",
+      artist: "Steve",
+      album: "Small Components"
+    },
+    url: "/music/Track27.mp3",
+    duration: 185.00,
+  },
+  {
+    metaData: { 
+      title: "Arc",
+      artist: "Steve",
+      album: "Small Components"
+    },
+    url: "/music/architecture.mp3",
+    duration: 36.00,
+  }
+],
     __butterchurnOptions: {
       importButterchurn: () => Promise.resolve(window.butterchurn),
       getPresets: () => {
