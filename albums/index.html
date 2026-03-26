@@ -1,0 +1,65 @@
+---
+layout: default
+title: Albums
+permalink: /albums/
+---
+
+<style>
+  .albums {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .album {
+    cursor: pointer;
+    text-align: center;
+  }
+
+  .album img {
+    width: 100%;
+    border-radius: 8px;
+  }
+</style>
+
+<div class="albums">
+  {% assign albums = site.data.tracks.tracks | group_by: "album" %}
+
+  {% for album in albums %}
+  <div class="album" onclick="loadAlbum('{{ album.name }}')">
+    {% assign first = album.items[0] %}
+    <img src="{{ first.cover }}" />
+    <h3>{{ album.name }}</h3>
+  </div>
+  {% endfor %}
+</div>
+
+<script>
+  const allTracks = [
+    {% for track in site.data.tracks.tracks %}
+    {
+      album: "{{ track.album }}",
+      metaData: {
+        title: "{{ track.title }}",
+        artist: "{{ track.artist }}"
+      },
+      url: "{{ track.file }}",
+      duration: {{ track.duration }}
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ];
+
+  function loadAlbum(albumName) {
+    const filtered = allTracks.filter(t => t.album === albumName);
+
+    const webamp = new Webamp({
+      initialTracks: filtered,
+    });
+
+    document.getElementById("app").innerHTML = "";
+    webamp.renderWhenReady(document.getElementById("app"));
+  }
+</script>
+
+<div id="app"></div>
