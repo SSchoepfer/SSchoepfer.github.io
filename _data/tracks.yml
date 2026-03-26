@@ -1,0 +1,19 @@
+# /_data/tracks.yml
+tracks:
+  - title: Track27
+    artist: DLZ Orchestra
+    album: Architecture EP
+    year: 2026
+    file: /music/Track27.mp3
+    duration: 185
+    cover: /img/PenRose1.svg
+    notes: "Digitakt → MT50 → Zoom H6"
+
+  - title: Arc
+    artist: Steve
+    album: Architecture EP
+    year: 2026
+    file: /music/architecture.mp3
+    duration: 36
+    cover: /img/GAR.png
+    notes: "Ambient interlude"
