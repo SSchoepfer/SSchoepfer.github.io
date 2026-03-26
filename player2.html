@@ -1,68 +1,128 @@
 ---
 layout: null
 ---
+
 <!DOCTYPE html>
-
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <title>Player</title>
-  </head>
+<head>
+  <meta charset="utf-8" />
+  <title>Music Player</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #000;
+      color: #fff;
+      font-family: sans-serif;
+    }
 
-  <body>
-    <div id="app" style="height: 100vh">
-      <!-- Webamp will center itself here -->
-    </div>
+    #playerHeader {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      background-color: #111;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
 
-```
-<!-- Webamp + Visualizer -->
-<script src="https://unpkg.com/webamp@1.5.0/built/webamp.bundle.min.js"></script>
-<script src="https://unpkg.com/butterchurn@2.6.7/lib/butterchurn.min.js"></script>
-<script src="https://unpkg.com/butterchurn-presets@2.4.7/lib/butterchurnPresets.min.js"></script>
+    #albumTitle {
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
 
-<script>
-  const tracks = [
-    {% for track in site.data.tracks.tracks %}
-    {
-      metaData: {
-        title: "{{ track.title }}",
-        artist: "{{ track.artist }}",
-        album: "{{ track.album }}"
+    #backButton {
+      color: #fff;
+      text-decoration: none;
+      font-size: 0.9rem;
+      background-color: #222;
+      padding: 5px 10px;
+      border-radius: 5px;
+    }
+
+    #app {
+      height: calc(100vh - 50px);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="playerHeader">
+    <span id="albumTitle">All Tracks</span>
+    <a id="backButton" href="/albums/">← Back to Albums</a>
+  </div>
+
+  <div id="app"></div>
+
+  <script src="https://unpkg.com/webamp@1.5.0/built/webamp.bundle.min.js"></script>
+  <script src="https://unpkg.com/butterchurn@2.6.7/lib/butterchurn.min.js"></script>
+  <script src="https://unpkg.com/butterchurn-presets@2.4.7/lib/butterchurnPresets.min.js"></script>
+
+  <script>
+    // Get album from URL query param
+    function getAlbumFromURL() {
+      const params = new URLSearchParams(window.location.search);
+      return params.get("album");
+    }
+
+    const selectedAlbum = getAlbumFromURL();
+
+    // Load tracks from Jekyll data
+    const allTracks = [
+      {% for track in site.data.tracks.tracks %}
+      {
+        album: "{{ track.album }}",
+        metaData: {
+          title: "{{ track.title }}",
+          artist: "{{ track.artist }}",
+          album: "{{ track.album }}"
+        },
+        url: "{{ track.file }}",
+        duration: {{ track.duration }}
+      }{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    ];
+
+    // Filter by selected album, or show all tracks
+    const tracks = selectedAlbum
+      ? allTracks.filter(t => t.album === selectedAlbum)
+      : allTracks;
+
+    // Update album title
+    if (selectedAlbum) {
+      document.getElementById("albumTitle").innerText = selectedAlbum;
+    }
+
+    // Initialize Webamp
+    const Webamp = window.Webamp;
+
+    const webamp = new Webamp({
+      initialTracks: tracks,
+
+      __butterchurnOptions: {
+        importButterchurn: () => Promise.resolve(window.butterchurn),
+        getPresets: () => {
+          const presets = window.butterchurnPresets.getPresets();
+          return Object.keys(presets).map((name) => ({
+            name,
+            butterchurnPresetObject: presets[name],
+          }));
+        },
+        butterchurnOpen: true,
       },
-      url: "{{ track.file }}",
-      duration: {{ track.duration }}
-    }{% unless forloop.last %},{% endunless %}
-    {% endfor %}
-  ];
 
-  const Webamp = window.Webamp;
-
-  const webamp = new Webamp({
-    initialTracks: tracks,
-
-    __butterchurnOptions: {
-      importButterchurn: () => Promise.resolve(window.butterchurn),
-      getPresets: () => {
-        const presets = window.butterchurnPresets.getPresets();
-        return Object.keys(presets).map((name) => ({
-          name,
-          butterchurnPresetObject: presets[name],
-        }));
+      __initialWindowLayout: {
+        main: { position: { x: 0, y: 0 } },
+        equalizer: { position: { x: 0, y: 116 } },
+        playlist: { position: { x: 0, y: 232 }, size: [0, 4] },
+        milkdrop: { position: { x: 275, y: 0 }, size: [7, 12] },
       },
-      butterchurnOpen: true,
-    },
+    });
 
-    __initialWindowLayout: {
-      main: { position: { x: 0, y: 0 } },
-      equalizer: { position: { x: 0, y: 116 } },
-      playlist: { position: { x: 0, y: 232 }, size: [0, 4] },
-      milkdrop: { position: { x: 275, y: 0 }, size: [7, 12] },
-    },
-  });
-
-  webamp.renderWhenReady(document.getElementById("app"));
-</script>
-```
-
-  </body>
+    webamp.renderWhenReady(document.getElementById("app"));
+  </script>
+</body>
 </html>
