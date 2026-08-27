@@ -27,6 +27,26 @@ Old Intel Mac hardware turns out to be a good target for Linux. It's plain, ordi
 x86 hardware under the fruit logo, so most things just work. The trackpad,
 display, and battery were all fine out of the box.
 
+## Making the install USB
+
+You install from a bootable USB stick, so the first step is getting the Omarchy
+ISO onto one. I used a 16GB stick, which is more than enough. Anything 8GB or
+larger works, and whatever is on it gets erased, so don't use one with files you
+want to keep.
+
+The ISO is a single download from the Omarchy site. To write it to the stick I
+used [balenaEtcher](https://etcher.balena.io/), a free tool that runs on Mac,
+Windows, and Linux. It does one job and makes it hard to get wrong: pick the ISO
+file, pick the USB drive, click Flash. It verifies the write when it finishes.
+The whole thing took a few minutes.
+
+You can do the same job from the command line with `dd`, but Etcher won't let you
+accidentally target your main drive, which is worth a lot when you're new to
+this.
+
+Once it was done I plugged the stick into the Air, held the Option key while it
+powered on, and picked the USB drive from the Mac's boot menu.
+
 ## First impressions
 
 It's fast, which I did not expect from a machine this old. The whole thing is
