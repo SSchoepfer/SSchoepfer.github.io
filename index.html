@@ -13,10 +13,11 @@ permalink: /
       <li><a href="/another-great-post/">My Favorite Gear of the Year</a></li>
     </ul>
 
-    <h4>Categories</h4>
+    <h4>Topics</h4>
     <ul>
-      {% for category in site.categories %}
-        <li><a href="/tag/{{ category[0] | downcase }}">{{ category[0] }} ({{ category[1].size }})</a></li>
+      {% assign sorted_tags = site.tags | sort %}
+      {% for tag in sorted_tags %}
+        <li><a href="/tag/{{ tag[0] | downcase }}">{{ tag[0] }} ({{ tag[1].size }})</a></li>
       {% endfor %}
     </ul>
   </aside>
