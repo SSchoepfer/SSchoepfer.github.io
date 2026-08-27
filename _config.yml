@@ -56,6 +56,6 @@ descriptions:
   - cat: Personal
     desc: "Personal"
 
-gems: 
+plugins:
       - jekyll-sitemap
       - jekyll-seo-tag
