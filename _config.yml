@@ -42,6 +42,7 @@ author:
 
 
 # Build settings
+future: true # publish posts dated in the future instead of hiding them
 kramdown:
 input: GFM
 
