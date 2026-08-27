@@ -2,7 +2,8 @@
 layout: post
 published: true
 author: Steve
-categories: html 
+categories: html
+tags: blog
 ---
 #### Click on Twitter Links:
 
