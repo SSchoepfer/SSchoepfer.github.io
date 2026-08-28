@@ -5,7 +5,7 @@ categories: misc
 author: Steve
 published: true
 permalink: /photonics-bull-case/
-tags: misc
+tags: investing
 ---
 
 I've been watching the photonics sector. The AI datacenter buildout is the catalyst. Moving data between chips and servers at the speeds these workloads require is pushing copper to its limits.
